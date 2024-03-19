@@ -1,0 +1,70 @@
+{
+    "hero": {
+        "title": "Frontend Developer \n focused on accessibility",
+        "description": "Crafting seamless, accessible digital experiences with cutting-edge web tech",
+        "links": [
+            {
+                "href": "#featured-projects",
+                "type": "background",
+                "text": "Featured projects"
+            },
+            {
+                "href": "/about",
+                "type": "simple",
+                "text": "About me"
+            }
+        ],
+        "heroVideo": "homepage-hero-video.mp4",
+        "heroVideoPoster": "homepage-hero-poster.png",
+        "trusted": "They trusted me",
+        "companies": [
+      
+            {
+                "logo": "logo-hmrc.png",
+                "width": 110,
+                "height": 28
+            },
+            {
+                "logo": "logo-mib.png",
+                "width": 51,
+                "height": 25
+            },
+            {
+                "logo": "logo-ericsson.png",
+                "width": 111,
+                "height": 25
+            },
+            {
+                "logo": "logo-sts.png",
+                "width": 40,
+                "height": 30
+            },
+            {
+                "logo": "logo-booking.png",
+                "width": 104,
+                "height": 25
+            }
+        ]
+    },
+    "stories": {
+        "title": "Featured Projects",
+        "columns": [
+            {
+                "image": "column1.png",
+                "headline": "Manufura",
+                "description": "Leading the ongoing development of the company's website, utilizing cutting-edge technologies including React, Next.js, and Sanity Studio to deliver a dynamic and responsive user experience. This project is actively under development, showcasing our latest advancements in web technology.",
+                "href": "https://github.com/GosiaKolarska/manufura-back",
+                "type": "underline-arrow",
+                "text": "Explore the evolving code"
+            },
+            {
+                "image": "column2.gif",
+                "headline": "Booking Holdings",
+                "description": "Engineered a sophisticated, fully customizable WordPress theme for leading online travel service providers.",
+                "href": "https://www.bookingholdings.com/",
+                "type": "underline-arrow",
+                "text": "View coded website"
+            }
+        ]
+    }
+}

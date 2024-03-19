@@ -1,0 +1,213 @@
+{
+    "abouthero": {
+        "title": "Cześć! I'm Gosia",
+        "description": "Frontend Developer blending innovation with accessibility to create impactful web experiences.",
+        "list": [
+            "7+ Years Frontend Expertise",
+            "React, Next.js, & CSS Proficient",
+            "Passionate advocate for Web Accessibility",
+            "Experienced in Government Projects"
+        ],
+        "heroVideoPoster": "about-hero-poster.png"
+    },
+    "experience": {
+        "title": "Experience",
+        "items": [
+            {
+                "title": "React Solution Innovator",
+                "description": "Building engaging, scalable web applications. Expertise in responsive design, modular UI development, and seamless content management.",
+                "points": [
+                    "Crafting cutting-edge web experiences with a focus on responsive, interactive designs tailored to client needs.",
+                    "Developing accessible, multilingual sites with Sanity, ensuring content is dynamic, manageable, and reaches a global audience.",
+                    "Leveraging Storybook for modular, consistent UI development, enhancing project efficiency and design coherence."
+                ]
+            },
+            {
+                "title": "Inclusivity Engineer ",
+                "description": "Develop web applications that are accessible to all, including individuals with disabilities. Collaborating with visually impaired users and following WCAG standards, I aim to make digital platforms more inclusive, broadening your audience and enhancing user experience."
+            },
+            {
+                "title": "Pixel Perfect WordPress Developer",
+                "description": "Transform unique visions into custom, editable WordPress themes, enhancing your web presence with engaging user experiences."
+            }
+        ],
+        "awards": {
+            "title": "Tech Initiatives & Impact",
+            "items": [
+                {
+                    "title": "CASSINI Hackathon",
+                    "position": "2023",
+                    "description": "Developed an AI-powered tool for cost estimation in construction, aiding anti-corruption efforts by improving transparency."
+                },
+                {
+                    "title": "HackYeah",
+                    "position": "2023",
+                    "description": "Created an AI-powered chatbot to guide students in making informed career decisions, leveraging NLP and machine learning technologies."
+                },
+                {
+                    "title": "HackYeah",
+                    "position": "2022",
+                    "description": "Developed a novel solution to facilitate composting, contributing to waste reduction and sustainable living practices."
+                },
+                {
+                    "title": "Aquathon",
+                    "position": "2022",
+                    "description": "Engineered an innovative solution to address the global water crisis, focusing on sustainable water management and conservation techniques."
+                }
+            ]
+        }
+    },
+    "aboutlinkedin": {
+        "titleFirstRow": "Innovative",
+        "titleMiddleRowBlue": "frontend dev",
+        "titleLastRow": "& accessibility specialist",
+        "description": [
+            "Crafting seamless web experiences with a blend of innovative development and a passion for accessibility.",
+            "Actively engaged in hackathons and currently developing a transformative course on web accessibility."
+        ],
+        "linkedinText": "Linkedin Profile",
+        "linkedinLink": "https://www.linkedin.com/in/mkolarska/",
+        "linkedinPhotos": [
+            {
+                "imageSrc": "team-hackyeah.png",
+                "imageAlt": "HackYeah team",
+                "className": "first",
+                "value": 6,
+                "width": 190,
+                "height": 114.68
+            },
+            {
+                "imageSrc": "team-mib.png",
+                "imageAlt": "Mib team",
+                "className": "second",
+                "value": 3,
+                "width": 431,
+                "height": 287.334
+            },
+            {
+                "imageSrc": "team-pega.png",
+                "imageAlt": "Pega team",
+                "className": "third",
+                "value": 2,
+                "width": 164,
+                "height": 118.34
+            },
+            {
+                "imageSrc": "gosiakolarska.png",
+                "imageAlt": "Berlin team",
+                "className": "forth",
+                "value": -4,
+                "width": 238,
+                "height": 267
+            }
+        ]
+    },
+    "work": {
+        "title": "Crafting digital excellence",
+        "titleBlue": "realized",
+        "description": "Transforming ideas into impactful digital experiences through a meticulous development process.",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Discover",
+                "contentTitle": "Collaborative Discovery & Design Analysis",
+                "content": [
+                    "Beginning with an exhaustive design analysis, I engage in detailed discussions with the design team to fully understand the envisioned user experience, objectives, and technical requirements.",
+                    "This critical first step ensures we're aligned from the start, setting a solid foundation for the seamless transformation of concepts into code."
+                ],
+                "img": "/assets/1discover.png"
+            },
+            {
+                "number": 2,
+                "title": "Define",
+                "contentTitle": "Architecting Blueprints for Success",
+                "content": [
+                    "Building on the insights gained, I architect the project's structure and draft a comprehensive development roadmap, carefully selecting technologies and methodologies that align perfectly with the project's goals.",
+                    "This stage focuses on developing a robust strategy that ensures scalability, maintainability, and success."
+                ],
+                "img": "/assets/2define.png"
+            },
+            {
+                "number": 3,
+                "title": "Develop",
+                "contentTitle": "Embracing Iterative Development for Excellence",
+                "content": [
+                    "I turn designs into dynamic, functional code, maintaining open communication with the design team to accurately realize their vision, integrating continuous feedback to refine and enhance features.",
+                    "This iterative approach ensures the seamless integration of interactive elements, surpassing the original design expectations."
+                ],
+                "img": "/assets/3develop.png"
+            },
+            {
+                "number": 4,
+                "title": "Refine",
+                "contentTitle": "Ensuring Excellence through Precision Testing",
+                "content": [
+                    "I apply a comprehensive testing protocol, from unit to acceptance testing, scrutinizing every application aspect for functionality and user satisfaction.",
+                    "Through focused optimization, I enhance performance, accessibility, and ensure an exceptional user experience across all platforms."
+                ],
+                "img": "/assets/4refine.png"
+            },
+            {
+                "number": 5,
+                "title": "Deliver",
+                "contentTitle": "Seamless Deployment & Continuous Evolution",
+                "content": [
+                    "I oversee the project's launch with an eye for detail, providing thorough documentation and training for stakeholders, ensuring a smooth transition.",
+                    "Committed to excellence, I continually monitor, assess, and refine the application, leveraging user feedback and technological advances for ongoing improvement and innovation."
+                ],
+                "img": "/assets/5deliver.png"
+            }
+        ]
+    },
+    "skillset": {
+        "title": "Skillset",
+        "description": "Eager to embrace new challenges, I continuously evolve my skills to create accessible, efficient, and innovative web and mobile solutions.",
+        "skills": [
+            {
+                "icon": "skillset-8.svg",
+                "title": "Frontend Mastery",
+                "description": "Advanced proficiency in HTML, CSS, JavaScript, React, and Next.js. Specialized in crafting responsive, dynamic user interfaces that exceed web standards."
+            },
+            {
+                "icon": "skillset-7.svg",
+                "title": "Accessibility Advocate",
+                "description": "Dedicated to ensuring web accessibility, rigorously applying WCAG guidelines to enhance inclusivity and usability across all projects."
+            },
+            {
+                "icon": "skillset-2.svg",
+                "title": "Agile Methodologies",
+                "description": "Proficient in Agile and Scrum methodologies, leveraging tools like Jira or Asana for peak efficiency in collaborative, fast-paced environments."
+            },
+            {
+                "icon": "skillset-1.svg",
+                "title": "Responsive Design",
+                "description": "Skilled in creating fluid and adaptable web designs using CSS, Sass, and modern CSS frameworks to ensure optimal viewing across devices."
+            },
+            {
+                "icon": "skillset-5.svg",
+                "title": "Design-Development Liaison",
+                "description": "Adept at fostering strong collaborations between design and development teams. Passionate about translating design concepts into technical solutions, ensuring seamless user experiences."
+            },
+            {
+                "icon": "skillset-3.svg",
+                "title": "State Management Expertise",
+                "description": "Proficient in managing complex state with React's Context and Hooks, ensuring seamless data flow and reactivity in large-scale applications."
+            },
+            {
+                "icon": "skillset-6.svg",
+                "title": "Performance Optimization",
+                "description": "Focused on optimizing web performance, leveraging tools and techniques like lazy loading, code splitting, and efficient rendering to enhance page speed and user experience."
+            },
+            {
+                "icon": "skillset-8.svg",
+                "title": "User Experience & Testing",
+                "description": "Committed to delivering outstanding user experiences through rigorous testing, employing Jest and user feedback to refine and perfect applications."
+            },
+            {
+                "icon": "skillset-7.svg",
+                "title": "Dedicated to Growth",
+                "description": "Passionate about professional development, engaging in ongoing learning through courses, hackathons, and developing accessible web content."
+            }
+        ]
+    }
+}

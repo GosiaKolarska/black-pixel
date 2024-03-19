@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: 'Red Hat Display', sans-serif;
+  background: #0C0E15;
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-xs {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1060px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.text-darkgrey {
+  color: #0C0E15
+}
+
+a {
+  display: inline-block;
+  text-decoration: unset;
+  color: unset;
+}
+
+button {
+  background-color: unset;
+  border: unset;
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
+  border: 1px solid #292F49;
+}
+
+.testimonials .swiper-pagination-bullet {
+  background: #fff;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.testimonials .swiper-wrapper {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 590px) {
+  .testimonials .swiper-wrapper {
+    padding-bottom: 60px;
+  }
+}
+
+.testimonials .swiper-pagination-bullet-active {
+  background-color: #213ed7;
+  border-radius: unset;
+}

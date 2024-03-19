@@ -1,0 +1,752 @@
+{
+    "projects": {
+        "React": [
+            {
+                "title": "Manufura",
+                "descriptionShort": "Crafted a sleek, React-based website, showcasing dynamic, SEO-optimized service pages.",
+                "descriptionLong": [
+                    "For Manufura, I engineered a React website with a dark theme, highlighting the company's autodetailing and upholstery services through a dynamic homepage slider, detailed service overviews, and customer testimonials.",
+                    "Each service page, designed for SEO efficiency, features engaging content including professional videos, related services, a gallery, and targeted FAQs to inform and engage users comprehensively.",
+                    "Utilizing React, styled-components, and Sanity for content management, the project delivered a responsive, customizable site.",
+                    "This build emphasized my ability to merge innovative design with functional, user-centric development, resulting in a modern online presence that elevates Manufura's brand and service accessibility."
+                ],
+                "technologies": [
+                    "React",
+                    "NextJS",
+                    "Sanity",
+                    "Module CSS"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-manufura.png",
+                "year": 2024,
+                "priority": 1
+            },
+            {
+                "title": "Mt. Sinai Cemetery",
+                "descriptionShort": "Reengineered website into a modern, fully editable digital platform, enhancing accessibility and visual appeal.",
+                "descriptionLong": [
+                    "For Mt. Sinai Cemetery, I led the full-scale redevelopment of their website, upgrading it from a basic HTML/CSS framework to a robust, Next.js-powered site.",
+                    "This transformation involved redesigning several key sections to incorporate fully editable features, ensuring content flexibility and future-proofing the site against evolving digital trends.",
+                    "The focus was on creating a user-friendly, responsive experience that reflects the dignity and serenity of the cemetery.",
+                    "Special attention was given to optimizing the site for seamless navigation and engagement, facilitating easy access to information for visitors.",
+                    "This project demonstrates my expertise in delivering comprehensive web solutions that combine aesthetic excellence with functional innovation."
+                ],
+                "technologies": [
+                    "React",
+                    "NextJS",
+                    "Sanity",
+                    "Styled Components"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-mtsinaicemetery.png",
+                "year": 2024,
+                "priority": 1
+            },
+            {
+                "title": "Chris Piskorz",
+                "descriptionShort": "Crafted a sleek, React-based portfolio, featuring a dynamic video and modern design elements across 2 pages.",
+                "descriptionLong": [
+                    "For Chris Piskorz, I developed a streamlined, React-based portfolio website, focusing on a minimalist design that effectively showcases his professional background and projects.",
+                    "The site comprises two main pages, each designed to engage visitors with smooth transitions, dynamic video content, and responsive, modern sections that highlight the depth of Chris's work and expertise.",
+                    "Utilizing Next.js for the framework, the website emphasizes performance and scalability, ensuring a seamless user experience on both desktop and mobile devices.",
+                    "The integration of styled-components facilitated a customized look and feel, aligning with Chris's personal brand and professional aesthetic.",
+                    "This portfolio stands as a testament to my ability to create personalized digital experiences that combine functionality with visual storytelling."
+                ],
+                "technologies": [
+                    "React",
+                    "NextJS",
+                    "Styled Components",
+                    "Figma"
+                ],
+                "linkWebsite": "https://chrisand.design/",
+                "img": "/assets/projects/project-chrisanddesign.png",
+                "year": 2023,
+                "priority": 2
+            },
+            {
+                "title": "Ericsson CDA",
+                "descriptionShort": "Played a pivotal role in digital modernization, transitioning their platform to React and enhancing its interactivity and scalability.",
+                "descriptionLong": [
+                    "In the Ericsson CDA project, my involvement was crucial in steering the digital transformation towards a React-based architecture.",
+                    "Initially focused on addressing issues with plain JavaScript, the project evolved into a comprehensive overhaul, adopting React to modernize the platform.",
+                    "My contributions were instrumental in this transition, developing a library of reusable components that significantly improved the platform's interactivity, responsiveness, and scalability.",
+                    "This endeavor entailed meticulous planning and execution, ensuring each page of the platform was seamlessly migrated to React without disrupting the user experience.",
+                    "The process not only enhanced the platform's performance but also its maintainability, setting a new standard for future developments."
+                ],
+                "technologies": [
+                    "React",
+                    "Javascript",
+                    "Sass & CSS",
+                    "Plotly"
+                ],
+                "img": "/assets/projects/project-ericsson.png",
+                "year": 2023,
+                "priority": 2
+            },
+            {
+                "title": "Birchal",
+                "descriptionShort": "Directed the development of critical components, an Australian equity crowdfunding platform.",
+                "descriptionLong": [
+                    "In my work with Birchal, an Australian equity crowdfunding platform, I spearheaded the development of pivotal components that aligned with a modular design ethos and strict design system guidelines.",
+                    "By integrating Storybook, I optimized component management, allowing for precise, scalable UI development.",
+                    "This strategy not only streamlined the design process but also guaranteed a uniform, engaging user experience across the platform.",
+                    "My efforts culminated in a highly functional, visually cohesive online environment, underlining my capacity to manage complex projects and deliver results that enhance user interaction and satisfaction."
+                ],
+                "technologies": [
+                    "React",
+                    "Tailwind",
+                    "Sass & CSS",
+                    "framerMotion"
+                ],
+                "img": "/assets/projects/project-birchal.png",
+                "year": 2022,
+                "priority": 2
+            },
+            {
+                "title": "Doniczkowcy",
+                "descriptionShort": "Developed an AA WCAG-compliant e-commerce platform, enhancing accessibility for all users.",
+                "descriptionLong": [
+                    "In the development of Doniczkowcy, I crafted a React-based e-commerce site that adheres to AA WCAG accessibility standards, ensuring a barrier-free shopping experience.",
+                    "This project was a blend of modern web technologies and inclusive design principles, aimed at creating a universally navigable and enjoyable platform for all users.",
+                    "Focusing on accessibility, the site incorporates features like keyboard navigability and screen reader compatibility, embedded within a responsive, fast-loading framework. By leveraging Redux for state management and styled-components for a tailored UI, the platform offers a seamless experience across devices, emphasizing ease of use without compromising on design or functionality.",
+                    "This initiative showcases the potential of inclusive web development to create environments where everyone can engage equally, illustrating my dedication to crafting accessible and user-centric digital solutions."
+                ],
+                "technologies": [
+                    "React",
+                    "Javascript",
+                    "Accessibility",
+                    "Firebase",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-doniczkowcy.png",
+                "year": 2023,
+                "priority": 3
+            },
+            {
+                "title": "Kompostowa gmina",
+                "descriptionShort": "Developed a multi-step calculator estimating community savings from individual composting efforts.",
+                "descriptionLong": [
+                    "More information soon"
+                ],
+                "technologies": [
+                    "React",
+                    "Javascript",
+                    "Sass & CSS",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-kompostownik.png",
+                "year": 2023,
+                "priority": 3
+            },
+            {
+                "title": "Kryzysowy Brak Wody",
+                "descriptionShort": "Engineered water crisis management tool, streamlining data-driven water allocation and community planning.",
+                "descriptionLong": [
+                    "More information soon"
+                ],
+                "technologies": [
+                    "React",
+                    "Javascript",
+                    "Sass & CSS",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-aquathon.png",
+                "year": 2023,
+                "priority": 3
+            }
+        ],
+        "AI": [
+            {
+                "title": "trAI",
+                "descriptionShort": "Contributed to a pioneering project using satellite data and AI for transparent infrastructure assessment.",
+                "descriptionLong": [
+                    "During the Cassini hackathon, I was part of the TrAI team, focusing on using Copernicus satellite data to train AI for transparent infrastructure assessments.",
+                    "My role, primarily centered on research and data preparation for AI training, facilitated the AI's capability to identify damage and estimate reconstruction costs accurately.",
+                    "This project not only showcased innovative uses of AI and satellite data but also highlighted the potential for technology to impact societal issues like corruption in infrastructure projects.",
+                    "My involvement demonstrated adaptability and a keen interest in leveraging technology for social good."
+                ],
+                "technologies": [
+                    "Roboflow",
+                    "React",
+                    "Sass & CSS",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-trAI.png",
+                "year": 2023,
+                "priority": 2
+            },
+            {
+                "title": "KarierAI",
+                "descriptionShort": "Crafted at a hackathon, this AI-powered platform delivers tailored advice for career and education planning.",
+                "descriptionLong": [
+                    "During a hackathon, I collaborated with a team comprising a designer, a UX specialist, a backend developer, and myself as the frontend developer, to bring KarierAI to life.",
+                    "This project harnessed artificial intelligence to provide users with custom-tailored career paths and educational advice, reflecting their unique abilities, interests, and ambitions.",
+                    "Our solution, designed around user-centric principles, delivers not just recommendations but a strategic blueprint for future success.",
+                    "My role involved crafting a seamless and engaging interface that enhances user interaction with AI-generated insights, enabling users to explore and visualize their career trajectories comprehensively."
+                ],
+                "technologies": [
+                    "React",
+                    "Roboflow",
+                    "Sass & CSS",
+                    "Vercel"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-karierai.png",
+                "year": 2023,
+                "priority": 2
+            }
+        ],
+        "Public Sector & GOV": [
+            {
+                "title": "Her Majesty Revenue & Customs (HMRC)",
+                "descriptionShort": "Optimized HMRC's digital accessibility by collaborating with a visually impaired user to improve the user experience.",
+                "descriptionLong": [
+                    "In a pivotal role at HMRC, I contributed to the agency's digital modernization by focusing on accessibility enhancements and user experience improvements. Collaborating closely with visually impaired user, our team rigorously tested and refined digital tax services to ensure compliance with WCAG 2.1 AA standards.",
+                    "This initiative was part of HMRC's strategic overhaul to streamline its digital infrastructure using the Pega Platform, simplifying the user journey for both staff and taxpayers.",
+                    "Achieved ahead of schedule and under budget, our work not only elevated HMRC's service delivery but also set a benchmark for digital inclusivity and efficiency within government services."
+                ],
+                "technologies": [
+                    "Pega CMS",
+                    "Accessibility",
+                    "Sass & CSS",
+                    "JavaScript"
+                ],
+                "img": "/assets/projects/project-hmrc.png",
+                "year": 2021,
+                "priority": 1
+            },
+            {
+                "title": "Motor Insurers' Bureau (MIB)",
+                "descriptionShort": "Contributed as a Senior UI Solutions Developer to modernize the MIB's digital ecosystem, enhancing accessibility and UX.",
+                "descriptionLong": [
+                    "As part of a team of Senior UI Solutions Developers and UX experts, I contributed to the digital revitalization of the Motor Insurers' Bureau (MIB) by upgrading its IT infrastructure with the Pega Platform.",
+                    "We focused on creating accessible, WCAG 2.1 compliant multi-step forms, enhancing user experience across Claims, Whiplash, and the Police Helpline departments.",
+                    "Our efforts streamlined MIB's digital ecosystem, integrating APIs to boost operational efficiency and user experience. Delivered under budget and ahead of schedule, the project elevated service standards and fostered a culture of innovation and agility within the insurance industry."
+                ],
+                "technologies": [
+                    "Pega CMS",
+                    "Accessibility",
+                    "Sass & CSS",
+                    "JavaScript"
+                ],
+                "img": "/assets/projects/project-mib.png",
+                "year": 2020,
+                "priority": 1
+            },
+            {
+                "title": "Bavarian State Ministry of Economic Affairs",
+                "descriptionShort": "Crafted an accessible, digital application process for COVID-19 aid, streamlining support for SMEs and self-employed workers.",
+                "descriptionLong": [
+                    "As a Senior UI Solutions Developer, I spearheaded the enhancement of the Bavarian State Ministry of Economic Affairs' COVID-19 financial aid application, transforming a manual process into a fully digital, accessible form in just 5 days. This significantly improved the distribution efficiency.",
+                    "The project enabled the rapid disbursement of EUR 2.2 billion to over 300,000 applicants, demonstrating the importance of UI/UX in service delivery and operational efficiency, especially in remote contexts.",
+                    "Our focus on accessibility and user-centric design provided immediate support to businesses and set a new standard for digital inclusivity and effectiveness in public service."
+                ],
+                "technologies": [
+                    "Pega CMS",
+                    "Accessibility",
+                    "Sass & CSS",
+                    "JavaScript"
+                ],
+                "img": "/assets/projects/project-bavarian.png",
+                "year": 2020,
+                "priority": 1
+            },
+            {
+                "title": "Lloyds Bank",
+                "descriptionShort": "Improved employee UX and accessibility, reducing workflow complexity by 50% and manual fraud case handling by 95%.",
+                "descriptionLong": [
+                    "In the Lloyds Bank UX transformation, I played a crucial role in boosting digital accessibility for employees, aligning with WCAG 2.1 AA standards. By redefining user interfaces and workflows, we halved the complexity of agents’ operations, enabling faster, more efficient customer service.",
+                    "This overhaul, enhanced by Pega’s automation, led to a 95% reduction in manual intervention for fraud cases, significantly improving both employee satisfaction and customer experience.",
+                    "Our work not only made the banking environment more intuitive but also marked a leap towards a more dynamic, responsive service model."
+                ],
+                "technologies": [
+                    "Pega CMS",
+                    "Accessibility",
+                    "Sass & CSS",
+                    "JavaScript"
+                ],
+                "img": "/assets/projects/project-lloyds.png",
+                "year": 2019,
+                "priority": 1
+            }
+        ],
+        "WordPress": [
+            {
+                "title": "Booking Holdings",
+                "descriptionShort": "Engineered a sophisticated, fully customizable WordPress theme for leading online travel service providers.",
+                "descriptionLong": [
+                    "For Booking Holdings, I led the creation of a custom WordPress theme, embedding ACF for a multifaceted corporate site. The project featured a dynamic site with over 35 tailored pages, integrating animations, multi-directional sliders, accordions, charts, and interactive maps to enhance user engagement and provide a versatile web experience.",
+                    "In partnership with OrangeYouGlad, we crafted a distinct web presence that transcends typical travel site designs, focusing on a clean, inviting aesthetic enriched with bold typography and subtle animations.",
+                    "The design prioritizes a responsive, user-friendly interface, showcasing Booking Holdings’ brands while ensuring technological excellence and easy social integration, emblematic of the company’s industry leadership."
+                ],
+                "technologies": [
+                    "Wordpress",
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "RWD"
+                ],
+                "linkWebsite": "https://www.bookingholdings.com/",
+                "img": "/assets/projects/project-bookingholdings.png",
+                "year": 2018,
+                "priority": 1
+            },
+            {
+                "title": "Bialek",
+                "descriptionShort": "Engineered a bespoke WordPress site for Bialek Environments, a leading furniture, construction, and design firm.",
+                "descriptionLong": [
+                    "For Bialek Environments, as part of the Codephonic team, I contributed to developing a sophisticated WordPress site that mirrors the quality of their Herman Miller and DIRTT offerings. This custom, fully editable site spans over 30 pages with an animated homepage, designed to showcase Bialek's design flair and solutions.",
+                    "The website architecture emphasizes Bialek's specialized services and highlights their projects in a detailed case studies section, featuring the Intellistruct product. We ensured a fluid user experience across devices with responsive design and interactive elements like Thinglink-enabled galleries for dynamic content engagement.",
+                    "In collaboration with OrangeYouGlad, we leveraged mood boards and advanced web technologies to create a site that balances aesthetic appeal with functionality, effectively communicating Bialek's comprehensive space solutions and design expertise."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "https://bialek.com/",
+                "img": "/assets/projects/project-bialek.png",
+                "year": 2018,
+                "priority": 1
+            },
+            {
+                "title": "PopCulltureCollab",
+                "descriptionShort": "Crafted an engaging WordPress site with a custom theme for a philanthropy promoting equality through popular culture.",
+                "descriptionLong": [
+                    "Developed a vibrant WordPress site for the Pop Culture Collaborative to champion social change through popular culture. This engaging platform, featuring over 15 pages, includes a custom, editable theme that vividly presents the collaborative's efforts.",
+                    "With sliders, galleries, and various content formats, the site dynamically showcases impactful initiatives and stories. Custom templates across numerous pages enhance design flexibility, capturing the essence of the collaborative's mission to leverage pop culture for equality and justice.",
+                    "The site effectively engages visitors, underscoring the transformative power of pop culture in amplifying philanthropic messages and fostering community around shared values."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "https://popcollab.org/",
+                "img": "/assets/projects/project-popculturecollab.png",
+                "year": 2018,
+                "priority": 2
+            },
+            {
+                "title": "Galapagos",
+                "descriptionShort": "Revamped the website, enhancing user experience, multimedia integration, and donation functionality.",
+                "descriptionLong": [
+                    "Focused on refining the Galapagos Conservancy website, my contributions were key to enhancing site engagement and functionality. Emphasizing multimedia elements like the Tortoise Cam, we created an immersive experience that brings the Galapagos Islands closer to a global audience.",
+                    "With a streamlined content management system, the site now beautifully showcases the islands' unique flora and fauna, engaging visitors deeply in the conservation mission.",
+                    "Improvements to the donation process were instrumental, making support for the Conservancy's vital work more accessible and prominent.",
+                    "This collaborative effort resulted in a dynamic, responsive website that not only highlights the Conservancy's impact but also sets a benchmark for conservation-focused digital platforms."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "https://www.galapagos.org/",
+                "img": "/assets/projects/project-galapagos.png",
+                "year": 2022,
+                "priority": 2
+            },
+            {
+                "title": "STS Reprezentacja Polski",
+                "descriptionShort": "Crafted a sleek, responsive one-page WordPress site, fully editable and tailored for a dynamic user experience",
+                "descriptionLong": [
+                    "This project entailed crafting a one-page WordPress website for STS RP Reprezentacja Polski, designed to be fully dynamic, responsive, and editable.",
+                    "Key functionalities included a customizable header graphic with the option to replace static images with mp4 files, sections like “Grają Nasi” with adjustable tile quantities for displaying content, and “Zakłady Specjalne” allowing for minimal to maximal tile displays linked to CTA buttons in new tabs. The “Codziennie Nowe Wygrane” section required innovative modal or dialog box solutions for coupons, emphasizing the technical versatility needed.",
+                    "Emphasizing technical agility, the project included modal solutions for promotions and a cohesive visual experience across all devices, ensuring the website not only met but exceeded modern web standards."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress"
+                ],
+                "img": "/assets/projects/project-stsRP.png",
+                "year": 2021,
+                "priority": 1
+            },
+            {
+                "title": "STS Blog",
+                "descriptionShort": "Developed a custom WordPress theme, focusing on full editability, responsiveness, and multilingual capabilities.",
+                "descriptionLong": [
+                    "For the STSBET blog, I crafted a responsive, custom WordPress theme that supports multiple languages and offers comprehensive editability.",
+                    "Designed to ensure seamless navigation across devices, the theme enables easy management of content in languages such as English, Polish, and Finnish, with each version accessible through dedicated URLs optimized for SEO.",
+                    "The theme's core features include a rotator for highlighted posts, customizable categorization, a search function, and dynamic marketing banners. The layout prioritizes user engagement with functionalities like social media sharing, related post suggestions, and tagged content filtering, all ensuring a rich, interactive visitor experience."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress"
+                ],
+                "img": "/assets/projects/project-stsblog.png",
+                "year": 2021,
+                "priority": 1
+            },
+            {
+                "title": "GrajLegalnie",
+                "descriptionShort": "Crafted a dynamic, one-page WordPress website with responsive design, featuring custom illustrations.",
+                "descriptionLong": [
+                    "Developed a one-page WordPress site with a dynamic, responsive layout, including custom illustrations and unique features like a vertical PDF slider.",
+                    "Focused on making every section, including a downloadable PDF press office and dynamic forms, fully customizable for easy admin management.",
+                    "Prioritized responsive design to ensure a seamless experience across all devices, marrying visual appeal with functional innovation for an engaging online presence."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress"
+                ],
+                "linkWebsite": "https://grajlegalnie.pl/",
+                "img": "/assets/projects/project-grajlegalnie.png",
+                "year": 2020,
+                "priority": 1
+            },
+            {
+                "title": "Orange You Glad",
+                "descriptionShort": "Refined and enhanced WordPress site, focusing on UX improvements and the addition of new functionalities.",
+                "descriptionLong": [
+                    "Undertook a comprehensive overhaul of Orange You Glad's WordPress site to boost its performance, usability, and aesthetic appeal.",
+                    "Focused enhancements on critical subpages, including a detailed refactoring of the project showcase and about sections, aligning them more closely with the agency's dynamic portfolio and branding.",
+                    "Integrated essential new features, including an interactive 404 error page that enhances user navigation in case of missing content. A redesigned layout, incorporating advanced functionalities elevates the site's visual storytelling and user engagement."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "https://www.orangeyouglad.com/",
+                "img": "/assets/projects/project-orangeyouglad.png",
+                "year": 2018,
+                "priority": 2
+            },
+            {
+                "title": "Valley Leadrship",
+                "descriptionShort": "Crafted a pixel-perfect custom WordPress theme featuring a variety of subpages and interactive elements.",
+                "descriptionLong": [
+                    "Implemented a custom WordPress theme for Valley Leadership, closely following agency-provided designs with precision.",
+                    "The theme features extensive customization options through shortcodes for dynamic content arrangement across multiple subpages, including a specialized articles section.",
+                    "Focused on refining the website's responsiveness, the project enhanced user interaction and accessibility, ensuring an optimal viewing experience across various devices.",
+                    "The outcome is a functional and aesthetically pleasing website that aligns with Valley Leadership's branding and effectively communicates its mission, engaging users with structured navigation and interactive elements."
+                ],
+                "technologies": [
+                    "Wordpress",
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "RWD"
+                ],
+                "linkWebsite": "https://www.valleyleadership.org/",
+                "img": "/assets/projects/project-valleyleadership.png",
+                "year": 2018,
+                "priority": 2
+            },
+            {
+                "title": "Theater of War",
+                "descriptionShort": "Enhanced the website with new features and sections, supporting its social mission through improved functionality and design.",
+                "descriptionLong": [
+                    "Refined and expanded the Theater of War WordPress site to bolster their mission of addressing societal issues through theater. My role encompassed site enhancements, adding functional subpages, and optimizing user experience to support interactive town-hall style readings and discussions.",
+                    "Key developments included a customizable calendar for events and an organized cast page for over 150 actors, significantly improving content management and audience engagement.",
+                    "These updates transformed the site into a dynamic platform that effectively conveys the organization's impactful fusion of performance art and social discourse."
+                ],
+                "technologies": [
+                    "Wordpress",
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "RWD"
+                ],
+                "linkWebsite": "https://theaterofwar.com/",
+                "img": "/assets/projects/project-theatre.png",
+                "year": 2017,
+                "priority": 2
+            },
+            {
+                "title": "Santa Maria Store",
+                "descriptionShort": "Crafted a unique WooCommerce shop with a custom, responsive WordPress theme and a masonry layout.",
+                "descriptionLong": [
+                    "For Santa Maria Store, I developed a WooCommerce shop integrated with a custom WordPress theme, featuring a masonry layout for an innovative shopping experience.",
+                    "This layout, challenging in terms of responsiveness, was fine-tuned for aesthetic consistency across devices. The site's structure, including user profiles, was fully customizable and designed for easy updates, aligning with the designer's vision.",
+                    "This project showcases a blend of unique design and practical functionality, resulting in a user-friendly, visually appealing online store that captures Santa Maria Store's distinct brand."
+                ],
+                "technologies": [
+                    "PHP",
+                    "WooCommerce",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "RWD"
+                ],
+                "linkWebsite": "https://santamariastore.pl/",
+                "img": "/assets/projects/project-santa.png",
+                "year": 2022,
+                "priority": 2
+            },
+            {
+                "title": "Pelvifly",
+                "descriptionShort": "Optimized Pelvifly's product page for improved UX, focusing on responsiveness and feature enhancements.",
+                "descriptionLong": [
+                    "In my role at Pelvifly, I led the enhancement of the product page to boost user experience, focusing on aesthetic appeal, intuitiveness, and cross-device responsiveness.",
+                    "The initiative was geared towards bolstering the product page's navigability and interactivity. This enhancement strategy was designed to streamline user access to critical information, thereby facilitating a more engaging and efficient interaction with Pelvifly's offerings.",
+                    "My efforts concentrated on refining content layout and accelerating load times, with a strong focus on responsive design to ensure a seamless experience for both desktop and mobile users."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery"
+                ],
+                "linkWebsite": "https://pelvifly.com/",
+                "img": "/assets/projects/project-pelvifly.png",
+                "year": 2018,
+                "priority": 2
+            },
+            {
+                "title": "Calenday",
+                "descriptionShort": "Coded a responsive WordPress theme, integrating smart scheduling tools and interactive elements for personal trainers.",
+                "descriptionLong": [
+                    "In developing the WordPress theme for Calenday my role involved coding a theme that significantly enhances the scheduling capabilities for personal trainers.",
+                    "Central to this project was a unique calculator slider, designed to help users effortlessly estimate time and financial benefits from using the Calenday app.",
+                    "Accompanied by an FAQ section with accordion functionality, an informative blog, and clear pricing details, the theme promotes an interactive and efficient user experience.",
+                    "This work underscores my ability to bring complex functionalities to life within a responsive, fully editable WordPress environment, providing personal trainers with a valuable tool to improve their business operations. "
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-calenday.png",
+                "year": 2022,
+                "priority": 2
+            },
+            {
+                "title": "OneFlexo",
+                "descriptionShort": "Created a responsive, multilingual WordPress site with a custom theme, designed as a one-page layout.",
+                "descriptionLong": [
+                    "Crafted a bespoke WordPress theme tailored to deliver a highly responsive and multilingual online presence.",
+                    "The website's design is characterized by its one-page structure, divided into 8 distinct sections, each marked by unique color transitions that add visual depth and cohesion to the user experience.",
+                    "A significant emphasis was placed on the site's adaptability across languages, ensuring content—regardless of word length differences in languages meshes well with accompanying images without compromising design integrity."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "https://oneflexo.com/",
+                "img": "/assets/projects/project-oneflexo.png",
+                "year": 2018,
+                "priority": 3
+            },
+            {
+                "title": "366",
+                "descriptionShort": "Boosted 366 with speed optimization, location switching, a Black Friday campaign, and a modern platform transition plan.",
+                "descriptionLong": [
+                    "In the 366 project, I focused on optimizing the site's performance and user experience. This included refining product descriptions, boosting page loading speeds, and synchronizing staging with the production environment. A notable addition was a globally accessible location switch, enhancing site accessibility and relevance for international visitors.",
+                    "Significant updates also featured the implementation of a new frother, a universally visible admin-managed information bar for timely announcements, and the orchestration of a major Black Friday campaign.",
+                    " Moreover, I undertook a comprehensive analysis to evaluate the potential migration to a more advanced e-commerce platform, aimed at improving scalability and user interaction.",
+                    "These efforts culminated in a streamlined, more engaging 366 website, poised for future technological upgrades and enhanced customer engagement."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "Elementor",
+                    "Wordpress"
+                ],
+                "linkWebsite": "https://pl.366concept.com/",
+                "img": "/assets/projects/project-366.png",
+                "year": 2022,
+                "priority": 3
+            },
+            {
+                "title": "Kasprowisko 2019",
+                "descriptionShort": "Crafted a dynamic, mobile-friendly one-page site, integrating a real-time event planner and essential details.",
+                "descriptionLong": [
+                    "In developing Kasprowisko 2019's website, I engineered a sleek, one-page platform that centralized the event's schedule, pricing, and detailed information, ensuring optimal accessibility on both web and mobile.",
+                    "The site's cornerstone, a dynamic planner, allowed for easy navigation through the event's lineup, fully editable to accommodate real-time updates.",
+                    "Balancing functionality with aesthetics, I utilized a modern tech stack to deliver a user experience that was both engaging and practical.",
+                    "This project underscores my expertise in front-end development, showcasing my ability to transform event logistics into an intuitive digital experience that elevates user interaction and event anticipation."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress"
+                ],
+                "linkWebsite": "https://kasprowisko.pl/",
+                "img": "/assets/projects/project-kasprowisko.png",
+                "year": 2019,
+                "priority": 3
+            },
+            {
+                "title": "StickyLickits",
+                "descriptionShort": "Crafted a vibrant WordPress theme with a WooCommerce integration for a playful, product-centric website.",
+                "descriptionLong": [
+                    "Developed a custom WordPress theme for a colorful and engaging website that brings the product to life through a responsive video header on the homepage.",
+                    "The site features interactive elements like accordions and a straightforward WooCommerce shop, providing a seamless shopping experience.",
+                    "Designed for simplicity and interactivity, the theme is fully editable, allowing easy updates and shop management, ensuring the website remains as dynamic and vibrant as the product it showcases."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "WooCommerce",
+                    "RWD"
+                ],
+                "linkWebsite": "https://stickylickits.com/",
+                "img": "/assets/projects/project-stickylickits.png",
+                "year": 2018,
+                "priority": 3
+            },
+            {
+                "title": "CRNFT",
+                "descriptionShort": "Efficiently developed a fully customizable Elementor-based WordPress theme, tailored for quick adaptability and functionality.",
+                "descriptionLong": [
+                    "In the CRNFT project, my role as a frontend developer involved crafting a WordPress theme that emphasized full customization and ease of use.",
+                    "Utilizing Elementor, I delivered a flexible theme foundation within a tight two-day timeframe, designed to support a wide range of content types and visual layouts.",
+                    "This project showcased my ability to work efficiently under time constraints while maintaining a high standard of quality and user-centric design."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "Wordpress"
+                ],
+                "img": "/assets/projects/project-crnft.png",
+                "year": 2022,
+                "priority": 3
+            },
+            {
+                "title": "Daniec Hair & Beauty",
+                "descriptionShort": "Revamped the pricelist subpage making it dynamic, user-friendly, and fully customizable by the admin.",
+                "descriptionLong": [
+                    "Refactored the Daniec Hair & Beauty pricelist subpage into a dynamic, user-friendly component of their WordPress site, focusing on visual appeal and ease of navigation. Enhanced customizability allows the site admin to effortlessly update content, ensuring the pricelist reflects the salon's evolving services.",
+                    "Emphasized responsiveness to maintain a seamless browsing experience across all devices, facilitating easy access to services and pricing for clients. This revamp showcases the significant impact of refined web development on business tools, making the pricelist a clear, accessible representation of offerings."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "http://strona.daniec-hairandbeauty.pl/cennik",
+                "img": "/assets/projects/project-daniec.png",
+                "year": 2019,
+                "priority": 3
+            },
+            {
+                "title": "Scrum",
+                "descriptionShort": "Developed a custom WordPress theme for Scrum.org.pl, featuring interactive schema tooltips for an enhanced user experience.",
+                "descriptionLong": [
+                    "For the Scrum.org.pl project, I crafted a simplistic yet functional website utilizing WordPress. My role encompassed creating and customizing a WordPress theme to align with the provided design specifications.",
+                    "A standout feature of this website is the implementation of interactive schemas—when users hover over different sections, they're greeted with detailed descriptions, making the site informative and user-friendly."
+                ],
+                "technologies": [
+                    "PHP",
+                    "JavaScript",
+                    "Sass & CSS",
+                    "jQuery",
+                    "Wordpress",
+                    "RWD"
+                ],
+                "linkWebsite": "http://scrum.org.pl/",
+                "img": "/assets/projects/project-scrumorg.png",
+                "year": 2016,
+                "priority": 3
+            }
+        ],
+        "Mobile App": [
+            {
+                "title": "oZwierzSie",
+                "descriptionShort": "Develop React Native app to ease pet adoption with a swipe-to-discover interface for finding and favoring pets.",
+                "descriptionLong": [
+                    "oZwierzSie is a mobile application I developed to simplify the pet adoption process. The app's core functionality allows users to create accounts and browse through a comprehensive database of animals in need of homes, sourced from various shelters and private owners.",
+                    "Utilizing an intuitive swiping mechanism, users can effortlessly navigate through pet profiles, swiping right to save favorites and left to pass. Each pet's profile offers detailed information, including breed, color, gender, and other pertinent details, to assist users in making informed adoption decisions.",
+                    "The app features advanced search filters, a favorites tab for quick access, and direct messaging for seamless communication with shelters. It supports listings from verified sources, ensuring a trustworthy adoption process."
+                ],
+                "technologies": [
+                    "React native",
+                    "React Native Elements",
+                    "Firebase",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-ozwierzsie.png",
+                "year": 2023,
+                "priority": 2
+            },
+            {
+                "title": "Plantea",
+                "descriptionShort": "Crafted an app for easy plant care management with tailored reminders and features.",
+                "descriptionLong": [
+                    "Plantea revolutionizes plant care with a React Native app that notifies users about care routines for their plants, tailored by type, location, and needs.",
+                    "Designed for both enthusiasts and those new to plant care, it turns maintenance into a simple, rewarding activity. Users can categorize plants, receive care reminders, and access detailed plant care cards, making plant maintenance effortless and enjoyable.",
+                    "Plantea features a user-friendly interface, offline functionality, and customizable plant management options, including nickname assignment and group categorization. The app supports both a demo version, allowing up to two plants, and a premium version with unlimited plants and no ads."
+                ],
+                "technologies": [
+                    "React native",
+                    "React Native Elements",
+                    "Firebase",
+                    "Figma"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-plantea.png",
+                "year": 2022,
+                "priority": 2
+            }
+        ],
+        "Course": [
+            {
+                "title": "Let's make web accessible",
+                "descriptionShort": "Developing a course focused on crafting accessible web applications, aimed at fostering inclusivity across digital platforms.",
+                "descriptionLong": [
+                    "I am in the process of creating - Let's Make Web Accessible - a comprehensive course designed to empower developers with the knowledge and skills necessary to build web applications that are accessible to all users, including those with disabilities.",
+                    "This course emphasizes the importance of adhering to WCAG 2.1 guidelines and introduces practical techniques using HTML5, CSS3, and ARIA to ensure web content is both inclusive and user-friendly.",
+                    "Through detailed modules, participants will learn about semantic HTML, accessible navigation patterns, and effective use of accessibility testing tools.",
+                    "My goal is to contribute to a more inclusive digital world by equipping developers with the ability to create web experiences that are accessible to everyone."
+                ],
+                "technologies": [
+                    "HTML5",
+                    "CSS3",
+                    "JavaScript",
+                    "WCAG",
+                    "WAI-ARIA"
+                ],
+                "linkWebsite": "soon",
+                "img": "/assets/projects/project-course.png",
+                "year": 2024,
+                "priority": 2
+            }
+        ]
+    }
+}

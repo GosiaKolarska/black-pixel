@@ -1,0 +1,96 @@
+{
+    "siteMetadata": {
+        "title": "Black Pixel - Frontend Development Expertise",
+        "description": "At Black Pixel, we harness precision and innovation to empower digital spaces. Specializing in React and boasting over 6 years of industry experience, we champion responsive web and mobile designs, emphasizing digital accessibility. Ready to elevate your user-centric experience.",
+        "keywords": [
+            "Frontend Development Expert",
+            "React Development Services",
+            "Next.js Solutions",
+            "Digital Accessibility Consultant",
+            "WordPress Custom Solutions",
+            "Sanity Studio Integration",
+            "UI/UX Design Innovator",
+            "Agile Project Leadership"
+        ],
+        "author": "Gosia Kolarska"
+    },
+    "header": [
+        {
+            "text": "Home",
+            "href": "/",
+            "type": "simple"
+        },
+        {
+            "text": "About",
+            "href": "/about",
+            "type": "simple"
+        },
+        {
+            "text": "Projects",
+            "href": "/projects",
+            "type": "simple"
+        }
+    ],
+    "footer": {
+        "copy": "© 2024. Based in Krakow, designed by my beloved brother ️❤️"
+    },
+    "testimonials": {
+        "subtitle": "Testimonials straight from ",
+        "title": "Real Voices, Real Impact",
+        "people": [
+            {
+                "name": "Eliana C. Torres",
+                "role": "Senior UI Solutions Developer",
+                "img": "/assets/testimonials/Eliana.jpeg",
+                "description": [
+                    "I had the fortune to collaborate with Gosia on Pegasystems since day one. She is pure energy and positivity, a great team player, always willing to help. Her learning agility is incredible.",
+                    "She does not shy away from great challenges, she is ambitious and has innovative solutions. It is very easy to work with her."
+                ]
+            },
+            {
+                "name": "Ricky Grice",
+                "role": "Technical Solutions Director",
+                "img": "/assets/testimonials/Ricky.jpeg",
+                "description": [
+                    "Gosia was a fantastic addition on a project we worked on together. She was dedicated, took a huge amount of responsibility, and had real empathy for her client and end users.",
+                    "It was always a pleasure working with Gosia, as she calmly put her personality on the UI, and took a leadership role in enhancing the accessibility components."
+                ]
+            },
+            {
+                "name": "Lukas Normantas",
+                "role": "Senior System Architect",
+                "img": "/assets/testimonials/Lukas.jpeg",
+                "description": [
+                    "Gosia is a phenomenal resource who has made my time on our project much easier by constantly teaching me UI developer standards, showing me new ways of doing things on the front end and giving me constant feedback of how I can improve - this has ultimately lead to me becoming a lot more proficient in UI development within the Pega software.",
+                    "I will forever be grateful for Gosia's patience, understanding and her ability to cheer anybody up on the project. Gosia has great ideas and pays close attention to detail, traits which I am sure will help her succeed in any future role(s) she takes on."
+                ]
+            },
+            {
+                "name": "Adam Pink",
+                "role": "Digital Transformation Director",
+                "img": "/assets/testimonials/Adam.jpeg",
+                "description": [
+                    "Gosia (Malgorzata) is a highly skilled, motivated and dedicated professional with a passion for problem solving and collaboration. As her manager I was constantly delighted with her willingness to take on any new tasks, master them and then teach others how to do it.",
+                    "She truly loves her work and has a phenomenal attention to detail, and seems at ease managing several different projects all at the same time. She has contributed significantly to the success of building accessible solutions at Pega and we have all benefitted from her willingness to tackle issues that others deemed to too hard. I highly recommend her."
+                ]
+            },
+            {
+                "name": "Divesh Kavia",
+                "role": "Programme Delivery Director",
+                "img": "/assets/testimonials/user.png",
+                "description": [
+                    "Malgorzata's significant contribution working with me on several UK public sector projects was nothing short of marvelous. Her hard work, dedication, and sheer enthusiasm along with equally exceptional UI & UX skills provided confidence to all stakeholders she was in liaison with - including the client.",
+                    "Her ability to understand complex UI issues and handle them in any situation exceptionally calmly, professionally, and more importantly - patiently, was a huge asset to the team. Over the course of the role, she increased her leadership in her domain and was recognised as a thought leader and a truly best-in-class UI Solutions Developer."
+                ]
+            }
+        ]
+    },
+    "cta": {
+        "title": "Need help?",
+        "link": {
+            "href": "/about",
+            "type": "underline-arrow",
+            "text": "Send me a message"
+        }
+    }
+}
