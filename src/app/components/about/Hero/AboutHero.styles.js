@@ -13,14 +13,15 @@ export const Container = styled.div`
 `;
 
 export const ImageContainer = styled.div`
+  padding-top: 110px;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -160px;
   height: 100%;
   z-index: 0;
 
   img {
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     width: auto;
   }
@@ -77,6 +78,11 @@ export const FirstSection = styled.div`
     padding: 0px 32px 70px;
   }
 `;
+
+export const ContainerWrapper = styled.div`
+  position: relative;
+`;
+
 
 export const FirstSectionTtile = styled.h1`
   color: white;

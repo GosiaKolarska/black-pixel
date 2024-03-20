@@ -4,6 +4,7 @@ import StyledButton from "../../common/button/StyledButton";
 import {
   HeroSection,
   Container,
+  ContainerWrapper,
   ImageContainer,
   LeftContent,
   FirstSection,
@@ -33,40 +34,42 @@ const AboutHero = ({ isBioVisible, setIsBioVisible }) => {
 
   return (
     <HeroSection className="scrollHero">
-      <ImageContainer>
-        <Image
-          src="/assets/about-hero-poster.png"
-          width="416"
-          height="600"
-          alt="my avatar"
-        />
-      </ImageContainer>
       <Container className="container">
-        <LeftContent>
-          <FirstSection>
-            <FirstSectionTtile>{abouthero.title}</FirstSectionTtile>
-            <FirstSectionParagraph>
-              {abouthero.description}
-            </FirstSectionParagraph>
-          </FirstSection>
-          <List>
-            {abouthero.list.map((item, index) => (
-              <ListItem
-                key={index}
-                dangerouslySetInnerHTML={{
-                  __html: convertMarkdownLinksToHTML(item),
-                }}
-              />
-            ))}
-          </List>
-          <ButtonMore
-            className={`button-transition ${isBioVisible ? "hide" : "show"}`}
-          >
-            <StyledButton onClick={toggleBio} color="light">
-              Show full bio
-            </StyledButton>
-          </ButtonMore>
-        </LeftContent>
+        <ContainerWrapper>
+          <LeftContent>
+            <FirstSection>
+              <FirstSectionTtile>{abouthero.title}</FirstSectionTtile>
+              <FirstSectionParagraph>
+                {abouthero.description}
+              </FirstSectionParagraph>
+            </FirstSection>
+            <List>
+              {abouthero.list.map((item, index) => (
+                <ListItem
+                  key={index}
+                  dangerouslySetInnerHTML={{
+                    __html: convertMarkdownLinksToHTML(item),
+                  }}
+                />
+              ))}
+            </List>
+            <ButtonMore
+              className={`button-transition ${isBioVisible ? "hide" : "show"}`}
+            >
+              <StyledButton onClick={toggleBio} color="light">
+                Show full bio
+              </StyledButton>
+            </ButtonMore>
+          </LeftContent>
+          <ImageContainer>
+            <img
+              src="/assets/about-hero-poster.png"
+              width="416"
+              height="600"
+              alt="my avatar"
+            />
+          </ImageContainer>
+        </ContainerWrapper>
       </Container>
     </HeroSection>
   );
