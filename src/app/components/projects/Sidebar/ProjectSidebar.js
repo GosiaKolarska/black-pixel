@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import StyledLink from "../../common/link/StyledLink";
 import {
   Sidebar,
@@ -19,8 +19,17 @@ import {
 
 const ProjectSidebar = ({ project, onClose, isOpen, handleOverlayClick }) => {
   if (!project) return null;
-
   const sidebarClass = isOpen ? "sidebarOpen" : "sidebarClose";
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    return () => document.body.classList.remove("no-scroll");
+  }, [isOpen]);
 
   return (
     <Sidebar

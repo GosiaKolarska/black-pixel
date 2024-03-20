@@ -113,3 +113,7 @@ hr {
   background-color: #213ed7;
   border-radius: unset;
 }
+
+.no-scroll {
+  overflow: hidden;
+}
