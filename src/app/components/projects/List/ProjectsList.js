@@ -7,6 +7,7 @@ import {
   ProjectListSection,
   TabsList,
   TabsItem,
+  TabsItemCounter,
   ProjectList,
 } from "./ProjectsList.styles";
 
@@ -36,6 +37,19 @@ const ProjectsList = ({ onProjectSelect }) => {
     }
     return null;
   };
+
+  const projectCounts = Object.keys(projectsData.projects).reduce(
+    (acc, type) => {
+      acc[type] = projectsData.projects[type].length;
+      return acc;
+    },
+    {}
+  );
+
+  const totalCount = Object.values(projectCounts).reduce(
+    (sum, count) => sum + count,
+    0
+  );
 
   const handleProjectSelect = (project) => {
     setSelectedProject(project);
@@ -73,6 +87,7 @@ const ProjectsList = ({ onProjectSelect }) => {
             onClick={() => setFilter("All")}
           >
             All
+            <TabsItemCounter>{totalCount}</TabsItemCounter>
           </TabsItem>
           {Object.keys(projectsData.projects).map((type) => (
             <TabsItem
@@ -81,6 +96,7 @@ const ProjectsList = ({ onProjectSelect }) => {
               onClick={() => setFilter(type)}
             >
               {type}
+              <TabsItemCounter>{projectCounts[type]}</TabsItemCounter>
             </TabsItem>
           ))}
         </TabsList>

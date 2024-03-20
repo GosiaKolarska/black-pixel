@@ -19,6 +19,7 @@ export const TabsList = styled.ul`
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  gap: 6px;
 
   @media (max-width: 790px) {
     justify-content: flex-start;
@@ -29,7 +30,21 @@ export const TabsList = styled.ul`
   }
 `;
 
+export const TabsItemCounter = styled.span`
+  background: #ebebeb;
+  padding-top: 0.125rem;
+  padding-bottom: 0.05rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  border-radius: 0.25rem;
+  margin-left: 0.75rem;
+  font-size: 0.85rem;
+  line-height: 1.25;
+`;
+
 export const TabsItem = styled.li`
+  display: flex;
+  align-items: center;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
@@ -39,13 +54,25 @@ export const TabsItem = styled.li`
     background-color: #213ed7;
     color: white;
     font-weight: bold;
+
+    ${TabsItemCounter} {
+      background: #fff;
+      color: #000;
+    }
   }
 
   &:hover {
     background-color: #cfd2de;
     color: #000;
+
+    ${TabsItemCounter} {
+      background: #fff;
+      color: #000;
+    }
   }
 `;
+
+
 
 export const ProjectList = styled.ul`
   display: flex;
