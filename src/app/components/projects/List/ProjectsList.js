@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectListItem from "../ListItem/ProjectListItem";
 import ProjectSidebar from "../Sidebar/ProjectSidebar";
@@ -17,9 +17,30 @@ const ProjectsList = ({ onProjectSelect }) => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash) {
+      const project = findProjectByHash(hash);
+      if (project) {
+        handleProjectSelect(project);
+      }
+    }
+  }, []);
+
+  const findProjectByHash = (hash) => {
+    for (let category in projectsData.projects) {
+      const project = projectsData.projects[category].find(
+        (p) => p.title.replace(/\s+/g, "-").toLowerCase() === hash
+      );
+      if (project) return project;
+    }
+    return null;
+  };
+
   const handleProjectSelect = (project) => {
     setSelectedProject(project);
     setIsSidebarOpen(true);
+    window.location.hash = project.title.replace(/\s+/g, "-").toLowerCase();
   };
 
   const handleCloseSidebar = () => {
