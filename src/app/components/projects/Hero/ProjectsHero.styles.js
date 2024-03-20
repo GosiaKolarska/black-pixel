@@ -7,6 +7,10 @@ export const ProjectsSectionHero = styled.section`
   flex-direction: column;
   position: relative;
 
+  @media (max-width: 1440px) {
+    padding: 190px 0 90px;
+  }
+
   @media (max-width: 1024px) {
     padding: 215px 20px 90px;
   }

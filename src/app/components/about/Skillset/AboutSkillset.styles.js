@@ -6,6 +6,10 @@ export const SkillsetSection = styled.section`
   align-items: center;
   flex-direction: column;
 
+  @media (max-width: 1440px) {
+    padding: 200px 0;
+  }
+
   @media (max-width: 1100px) {
     padding-bottom: 150px;
   }

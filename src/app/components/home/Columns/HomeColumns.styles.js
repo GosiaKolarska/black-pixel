@@ -33,7 +33,7 @@ export const ColumnsSectionTitle = styled.h2`
 export const ColumnsSectionTitleList = styled.ul`
   padding: 0 0 88px;
 
-  @media (max-width: 590px) {
+  @media (max-width: 1440px) {
     padding: 0;
   }
 `;

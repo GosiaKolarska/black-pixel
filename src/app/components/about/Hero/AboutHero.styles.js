@@ -5,6 +5,7 @@ export const HeroSection = styled.section`
   align-items: center;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 `;
 
 export const Container = styled.div`
@@ -16,7 +17,7 @@ export const ImageContainer = styled.div`
   padding-top: 110px;
   position: absolute;
   top: 0;
-  right: -160px;
+  right: -350px;
   height: 100%;
   z-index: 0;
 
@@ -41,6 +42,14 @@ export const ImageContainer = styled.div`
     pointer-events: none;
   }
 
+  @media (max-width: 1440px) {
+    right: -230px;
+  }
+
+  @media (max-width: 1280px) {
+    right: -50px;
+  }
+
   @media (max-width: 990px) {
     right: 0;
     img {
@@ -61,6 +70,10 @@ export const ImageContainer = styled.div`
 export const LeftContent = styled.div`
   padding-top: 215px;
   z-index: 9;
+
+  @media (max-width: 1440px) {
+    padding-top: 190px;
+  }
 
   @media (max-width: 590px) {
     padding-top: 145px;
@@ -84,13 +97,12 @@ export const ContainerWrapper = styled.div`
   position: relative;
 `;
 
-
 export const FirstSectionTtile = styled.h1`
   color: white;
   font-size: 62px;
   font-weight: 600;
   line-height: 70px;
-  padding-bottom: 42px;
+  padding-bottom: 48px;
 
   @media (max-width: 590px) {
     font-size: 42px;
@@ -112,14 +124,17 @@ export const FirstSectionParagraph = styled.h2`
 
 export const List = styled.ul`
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  padding: 40px 0 30px;
-  color: white;
-  justify-content: space-between;
+  padding: 60px 0;
+  color: #fff;
+  column-gap: 40px;
 
   a {
     text-decoration-line: underline;
+  }
+
+  @media (max-width: 1280px) {
+    flex-direction: column;
   }
 
   @media (max-width: 990px) {

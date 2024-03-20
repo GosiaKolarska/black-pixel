@@ -6,6 +6,10 @@ export const SectionCTA = styled.div`
   justify-content: center;
   align-items: center;
 
+  @media (max-width: 1440px) {
+    margin-top: 150px;
+  }
+
   @media (max-width: 790px) {
     padding: 0 32px;
   }

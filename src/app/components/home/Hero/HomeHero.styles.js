@@ -8,6 +8,10 @@ export const HeroSection = styled.section`
   align-items: center;
   flex-direction: column;
 
+  @media (max-width: 1440px) {
+    padding: 190px 0 65px;
+  }
+
   @media (max-width: 590px) {
     padding: 155px 0 65px;
   }
@@ -113,6 +117,10 @@ export const LinksWrapper = styled.div``;
 
 export const CompaniesWrapper = styled.div`
   padding-top: 128px;
+
+  @media (max-width: 1440px) {
+    padding-top: 75px;
+  }
 
   @media (max-width: 990px) {
     padding: 128px 32px 0;

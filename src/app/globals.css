@@ -46,6 +46,12 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1060px;
+  }
+}
+
 
 .text-darkgrey {
   color: #0C0E15

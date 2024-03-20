@@ -7,6 +7,10 @@ export const WorkSection = styled.section`
   align-items: center;
   flex-direction: column;
 
+  @media (max-width: 1440px) {
+    padding: 80px 0 205px;
+  }
+
   @media (max-width: 590px) {
     padding: 0 0 105px;
   }
