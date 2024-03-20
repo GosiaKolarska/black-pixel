@@ -4,7 +4,6 @@ export const HeroSection = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(180deg, #2f3344 0%, #0f1117 90%, #0c0e15);
   position: relative;
 `;
 

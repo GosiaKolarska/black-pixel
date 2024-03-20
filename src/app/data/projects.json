@@ -43,27 +43,6 @@
                 "priority": 1
             },
             {
-                "title": "Chris Piskorz",
-                "descriptionShort": "Crafted a sleek, React-based portfolio, featuring a dynamic video and modern design elements across 2 pages.",
-                "descriptionLong": [
-                    "For Chris Piskorz, I developed a streamlined, React-based portfolio website, focusing on a minimalist design that effectively showcases his professional background and projects.",
-                    "The site comprises two main pages, each designed to engage visitors with smooth transitions, dynamic video content, and responsive, modern sections that highlight the depth of Chris's work and expertise.",
-                    "Utilizing Next.js for the framework, the website emphasizes performance and scalability, ensuring a seamless user experience on both desktop and mobile devices.",
-                    "The integration of styled-components facilitated a customized look and feel, aligning with Chris's personal brand and professional aesthetic.",
-                    "This portfolio stands as a testament to my ability to create personalized digital experiences that combine functionality with visual storytelling."
-                ],
-                "technologies": [
-                    "React",
-                    "NextJS",
-                    "Styled Components",
-                    "Figma"
-                ],
-                "linkWebsite": "https://chrisand.design/",
-                "img": "/assets/projects/project-chrisanddesign.png",
-                "year": 2023,
-                "priority": 2
-            },
-            {
                 "title": "Ericsson CDA",
                 "descriptionShort": "Played a pivotal role in digital modernization, transitioning their platform to React and enhancing its interactivity and scalability.",
                 "descriptionLong": [

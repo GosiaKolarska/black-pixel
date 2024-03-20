@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #000;
   font-family: 'Red Hat Display', sans-serif;
   background: #0C0E15;
   margin: 0;
