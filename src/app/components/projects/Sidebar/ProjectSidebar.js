@@ -18,9 +18,6 @@ import {
 } from "./ProjectSidebar.styles";
 
 const ProjectSidebar = ({ project, onClose, isOpen, handleOverlayClick }) => {
-  if (!project) return null;
-  const sidebarClass = isOpen ? "sidebarOpen" : "sidebarClose";
-
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add("no-scroll");
@@ -30,6 +27,10 @@ const ProjectSidebar = ({ project, onClose, isOpen, handleOverlayClick }) => {
 
     return () => document.body.classList.remove("no-scroll");
   }, [isOpen]);
+
+  if (!project) return null;
+
+  const sidebarClass = isOpen ? "sidebarOpen" : "sidebarClose";
 
   return (
     <Sidebar
