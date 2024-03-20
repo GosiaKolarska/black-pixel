@@ -11,6 +11,7 @@ export const Sidebar = styled(motion.aside)`
   padding: 2rem;
   background-color: white;
   box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.5);
+  overflow: auto;
 
   @media (max-width: 590px) {
     width: 100%;
