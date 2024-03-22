@@ -18,8 +18,10 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-manufura.png",
+                "logo": "/assets/logos/logo-manufura.png",
                 "year": 2024,
-                "priority": 1
+                "priority": 1,
+                "color": "#161616"
             },
             {
                 "title": "Mt. Sinai Cemetery",
@@ -39,8 +41,10 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-mtsinaicemetery.png",
+                "logo": "/assets/logos/logo-mtsinai.png",
                 "year": 2024,
-                "priority": 1
+                "priority": 1,
+                "color": "#507775"
             },
             {
                 "title": "Ericsson CDA",
@@ -59,8 +63,10 @@
                     "Plotly"
                 ],
                 "img": "/assets/projects/project-ericsson.png",
+                "logo": "/assets/logos/logo-ericsson.png",
                 "year": 2023,
-                "priority": 2
+                "priority": 2,
+                "color": "#002163"
             },
             {
                 "title": "Birchal",
@@ -78,8 +84,10 @@
                     "framerMotion"
                 ],
                 "img": "/assets/projects/project-birchal.png",
+                "logo": "/assets/logos/logo-birchal.png",
                 "year": 2022,
-                "priority": 2
+                "priority": 2,
+                "color": "#223AD3"
             },
             {
                 "title": "Doniczkowcy",
@@ -99,8 +107,11 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-doniczkowcy.png",
+                "logo": "/assets/logos/logo-doniczkowcy.png",
                 "year": 2023,
-                "priority": 3
+                "priority": 3,
+                "color": "#F9F9F9",
+                "textColor": "#000"
             },
             {
                 "title": "Kompostowa gmina",
@@ -116,11 +127,14 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-kompostownik.png",
+                "logo": "/assets/logos/logo-kompostowagmina.png",
                 "year": 2023,
-                "priority": 3
+                "priority": 3,
+                "color": "#EBEDD3",
+                "textColor": "#000"
             },
             {
-                "title": "Kryzysowy Brak Wody",
+                "title": "HydroHarmony",
                 "descriptionShort": "Engineered water crisis management tool, streamlining data-driven water allocation and community planning.",
                 "descriptionLong": [
                     "More information soon"
@@ -133,8 +147,11 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-aquathon.png",
+                "logo": "/assets/logos/logo-hydroharmony.png",
                 "year": 2023,
-                "priority": 3
+                "priority": 3,
+                "color": "#D6E8FB",
+                "textColor": "#000"
             }
         ],
         "AI": [
@@ -155,8 +172,10 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-trAI.png",
+                "logo": "/assets/logos/logo-trai.png",
                 "year": 2023,
-                "priority": 2
+                "priority": 2,
+                "color": "#211e28"
             },
             {
                 "title": "KarierAI",
@@ -175,8 +194,10 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-karierai.png",
+                "logo": "/assets/logos/logo-karierai.png",
                 "year": 2023,
-                "priority": 2
+                "priority": 2,
+                "color": "#191936"
             }
         ],
         "Public Sector & GOV": [
@@ -195,8 +216,10 @@
                     "JavaScript"
                 ],
                 "img": "/assets/projects/project-hmrc.png",
+                "logo": "/assets/logos/logo-hmrc.png",
                 "year": 2021,
-                "priority": 1
+                "priority": 1,
+                "color": "#009191"
             },
             {
                 "title": "Motor Insurers' Bureau (MIB)",
@@ -213,8 +236,10 @@
                     "JavaScript"
                 ],
                 "img": "/assets/projects/project-mib.png",
+                "logo": "/assets/logos/logo-mib.png",
                 "year": 2020,
-                "priority": 1
+                "priority": 1,
+                "color": "#2C965D"
             },
             {
                 "title": "Bavarian State Ministry of Economic Affairs",
@@ -231,8 +256,10 @@
                     "JavaScript"
                 ],
                 "img": "/assets/projects/project-bavarian.png",
+                "logo": "/assets/logos/logo-bavarian.png",
                 "year": 2020,
-                "priority": 1
+                "priority": 1,
+                "color": "#008FCE"
             },
             {
                 "title": "Lloyds Bank",
@@ -249,8 +276,10 @@
                     "JavaScript"
                 ],
                 "img": "/assets/projects/project-lloyds.png",
+                "logo": "/assets/logos/logo-lloyds.png",
                 "year": 2019,
-                "priority": 1
+                "priority": 1,
+                "color": "#006A4A"
             }
         ],
         "WordPress": [
@@ -272,8 +301,11 @@
                 ],
                 "linkWebsite": "https://www.bookingholdings.com/",
                 "img": "/assets/projects/project-bookingholdings.png",
+                "logo": "/assets/logos/logo-bookingholdings.png",
                 "year": 2018,
-                "priority": 1
+                "priority": 1,
+                "color": "#F3F3F3",
+                "textColor": "#000"
             },
             {
                 "title": "Bialek",
@@ -293,8 +325,10 @@
                 ],
                 "linkWebsite": "https://bialek.com/",
                 "img": "/assets/projects/project-bialek.png",
+                "logo": "/assets/logos/logo-bialek.png",
                 "year": 2018,
-                "priority": 1
+                "priority": 1,
+                "color": "#3F2B56"
             },
             {
                 "title": "PopCulltureCollab",
@@ -314,8 +348,10 @@
                 ],
                 "linkWebsite": "https://popcollab.org/",
                 "img": "/assets/projects/project-popculturecollab.png",
+                "logo": "/assets/logos/logo-popculturecollab.png",
                 "year": 2018,
-                "priority": 2
+                "priority": 2,
+                "color": "#1200BE"
             },
             {
                 "title": "Galapagos",
@@ -336,8 +372,10 @@
                 ],
                 "linkWebsite": "https://www.galapagos.org/",
                 "img": "/assets/projects/project-galapagos.png",
+                "logo": "/assets/logos/logo-galapagos.png",
                 "year": 2022,
-                "priority": 2
+                "priority": 2,
+                "color": "#0F2C22E6"
             },
             {
                 "title": "STS Reprezentacja Polski",
@@ -355,8 +393,10 @@
                     "Wordpress"
                 ],
                 "img": "/assets/projects/project-stsRP.png",
+                "logo": "/assets/logos/logo-sts.png",
                 "year": 2021,
-                "priority": 1
+                "priority": 1,
+                "color": "#006EDB"
             },
             {
                 "title": "STS Blog",
@@ -374,8 +414,10 @@
                     "Wordpress"
                 ],
                 "img": "/assets/projects/project-stsblog.png",
+                "logo": "/assets/logos/logo-sts.png",
                 "year": 2021,
-                "priority": 1
+                "priority": 1,
+                "color": "#006EDB"
             },
             {
                 "title": "GrajLegalnie",
@@ -394,11 +436,13 @@
                 ],
                 "linkWebsite": "https://grajlegalnie.pl/",
                 "img": "/assets/projects/project-grajlegalnie.png",
+                "logo": "/assets/logos/logo-grajlegalnie.png",
                 "year": 2020,
-                "priority": 1
+                "priority": 1,
+                "color": "#1F2E3D"
             },
             {
-                "title": "Orange You Glad",
+                "title": "OrangeYouGlad",
                 "descriptionShort": "Refined and enhanced WordPress site, focusing on UX improvements and the addition of new functionalities.",
                 "descriptionLong": [
                     "Undertook a comprehensive overhaul of Orange You Glad's WordPress site to boost its performance, usability, and aesthetic appeal.",
@@ -415,8 +459,10 @@
                 ],
                 "linkWebsite": "https://www.orangeyouglad.com/",
                 "img": "/assets/projects/project-orangeyouglad.png",
+                "logo": "/assets/logos/logo-orangeyouglad.png",
                 "year": 2018,
-                "priority": 2
+                "priority": 2,
+                "color": "#fd6115"
             },
             {
                 "title": "Valley Leadrship",
@@ -437,8 +483,11 @@
                 ],
                 "linkWebsite": "https://www.valleyleadership.org/",
                 "img": "/assets/projects/project-valleyleadership.png",
+                "logo": "/assets/logos/logo-valleyleadership.png",
                 "year": 2018,
-                "priority": 2
+                "priority": 2,
+                "color": "#06E6B8",
+                "textColor": "#000"
             },
             {
                 "title": "Theater of War",
@@ -458,8 +507,10 @@
                 ],
                 "linkWebsite": "https://theaterofwar.com/",
                 "img": "/assets/projects/project-theatre.png",
+                "logo": "/assets/logos/logo-theaterofthewar.png",
                 "year": 2017,
-                "priority": 2
+                "priority": 2,
+                "color": "#000"
             },
             {
                 "title": "Santa Maria Store",
@@ -478,8 +529,11 @@
                 ],
                 "linkWebsite": "https://santamariastore.pl/",
                 "img": "/assets/projects/project-santa.png",
+                "logo": "/assets/logos/logo-santa.png",
                 "year": 2022,
-                "priority": 2
+                "priority": 2,
+                "color": "#FCD3D3",
+                "textColor": "#000"
             },
             {
                 "title": "Pelvifly",
@@ -497,8 +551,10 @@
                 ],
                 "linkWebsite": "https://pelvifly.com/",
                 "img": "/assets/projects/project-pelvifly.png",
+                "logo": "/assets/logos/logo-pelvifly.png",
                 "year": 2018,
-                "priority": 2
+                "priority": 2,
+                "color": "#EB699F"
             },
             {
                 "title": "Calenday",
@@ -518,8 +574,10 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-calenday.png",
+                "logo": "/assets/logos/logo-calenday.png",
                 "year": 2022,
-                "priority": 2
+                "priority": 2,
+                "color": "#070A13"
             },
             {
                 "title": "OneFlexo",
@@ -539,8 +597,10 @@
                 ],
                 "linkWebsite": "https://oneflexo.com/",
                 "img": "/assets/projects/project-oneflexo.png",
+                "logo": "/assets/logos/logo-oneflexo.png",
                 "year": 2018,
-                "priority": 3
+                "priority": 3,
+                "color": "#E50414"
             },
             {
                 "title": "366",
@@ -560,8 +620,10 @@
                 ],
                 "linkWebsite": "https://pl.366concept.com/",
                 "img": "/assets/projects/project-366.png",
+                "logo": "/assets/logos/logo-366.png",
                 "year": 2022,
-                "priority": 3
+                "priority": 3,
+                "color": "#000"
             },
             {
                 "title": "Kasprowisko",
@@ -581,8 +643,11 @@
                 ],
                 "linkWebsite": "https://kasprowisko.pl/",
                 "img": "/assets/projects/project-kasprowisko.png",
+                "logo": "/assets/logos/logo-kasprowisko.png",
                 "year": 2019,
-                "priority": 3
+                "priority": 3,
+                "color": "#F6F4F5",
+                "textColor": "#000"
             },
             {
                 "title": "StickyLickits",
@@ -602,12 +667,15 @@
                 ],
                 "linkWebsite": "https://stickylickits.com/",
                 "img": "/assets/projects/project-stickylickits.png",
+                "logo": "/assets/logos/logo-stickylickits.png",
                 "year": 2018,
-                "priority": 3
+                "priority": 3,
+                "color": "#FDBB1C",
+                "textColor": "#000"
             },
             {
                 "title": "CRNFT",
-                "descriptionShort": "Efficiently developed a fully customizable Elementor-based WordPress theme, tailored for quick adaptability and functionality.",
+                "descriptionShort": "Efficiently developed a fully customizable Elementor-based WP theme, tailored for quick adaptability and functionality.",
                 "descriptionLong": [
                     "In the CRNFT project, my role as a frontend developer involved crafting a WordPress theme that emphasized full customization and ease of use.",
                     "Utilizing Elementor, I delivered a flexible theme foundation within a tight two-day timeframe, designed to support a wide range of content types and visual layouts.",
@@ -620,8 +688,11 @@
                     "Wordpress"
                 ],
                 "img": "/assets/projects/project-crnft.png",
+                "logo": "/assets/logos/logo-crnft.png",
                 "year": 2022,
-                "priority": 3
+                "priority": 3,
+                "color": "#F3F3F3",
+                "textColor": "#000"
             },
             {
                 "title": "Daniec Hair & Beauty",
@@ -640,8 +711,10 @@
                 ],
                 "linkWebsite": "http://strona.daniec-hairandbeauty.pl/cennik",
                 "img": "/assets/projects/project-daniec.png",
+                "logo": "/assets/logos/logo-daniec.png",
                 "year": 2019,
-                "priority": 3
+                "priority": 3,
+                "color": "#E32291"
             },
             {
                 "title": "Scrum",
@@ -660,8 +733,10 @@
                 ],
                 "linkWebsite": "http://scrum.org.pl/",
                 "img": "/assets/projects/project-scrumorg.png",
+                "logo": "/assets/logos/logo-scrum.png",
                 "year": 2016,
-                "priority": 3
+                "priority": 3,
+                "color": "#FF654C"
             }
         ],
         "Mobile App": [
@@ -681,8 +756,11 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-ozwierzsie.png",
+                "logo": "/assets/logos/logo-ozwierzsie.png",
                 "year": 2023,
-                "priority": 2
+                "priority": 2,
+                "color": "#D9DDBE",
+                "textColor": "#000"
             },
             {
                 "title": "Plantea",
@@ -700,16 +778,19 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-plantea.png",
+                "logo": "/assets/logos/logo-plantea.png",
                 "year": 2022,
-                "priority": 2
+                "priority": 2,
+                "color": "#F2F0E4",
+                "textColor": "#000"
             }
         ],
         "Course": [
             {
-                "title": "Let's make web accessible",
-                "descriptionShort": "Developing a course focused on crafting accessible web applications, aimed at fostering inclusivity across digital platforms.",
+                "title": "AccessForAll",
+                "descriptionShort": "Developing a course focused on crafting accessible web apps, aimed at fostering inclusivity across digital platforms.",
                 "descriptionLong": [
-                    "I am in the process of creating - Let's Make Web Accessible - a comprehensive course designed to empower developers with the knowledge and skills necessary to build web applications that are accessible to all users, including those with disabilities.",
+                    "I am in the process of creating a comprehensive course called Let's Make Web Accessible designed to empower developers with the knowledge and skills necessary to build web applications that are accessible to all users, including those with disabilities.",
                     "This course emphasizes the importance of adhering to WCAG 2.1 guidelines and introduces practical techniques using HTML5, CSS3, and ARIA to ensure web content is both inclusive and user-friendly.",
                     "Through detailed modules, participants will learn about semantic HTML, accessible navigation patterns, and effective use of accessibility testing tools.",
                     "My goal is to contribute to a more inclusive digital world by equipping developers with the ability to create web experiences that are accessible to everyone."
@@ -723,8 +804,11 @@
                 ],
                 "linkWebsite": "soon",
                 "img": "/assets/projects/project-course.png",
+                "logo": "/assets/logos/logo-accessforall.png",
                 "year": 2024,
-                "priority": 2
+                "priority": 2,
+                "color": "#f8f8f8",
+                "textColor": "#000"
             }
         ]
     }

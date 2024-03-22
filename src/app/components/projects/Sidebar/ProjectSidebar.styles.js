@@ -62,8 +62,7 @@ export const ProjectSidebarOverlay = styled.div`
 
 export const SidebarImage = styled.img`
   max-width: 480px;
-  border-radius: 1rem;
-  border: 1px solid;
+  border-radius: 32px;
 
   @media (max-width: 590px) {
     object-fit: contain;

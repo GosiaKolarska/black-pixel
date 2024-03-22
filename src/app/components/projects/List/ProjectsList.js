@@ -87,7 +87,6 @@ const ProjectsList = ({ onProjectSelect }) => {
             onClick={() => setFilter("All")}
           >
             All
-            <TabsItemCounter>{totalCount}</TabsItemCounter>
           </TabsItem>
           {Object.keys(projectsData.projects).map((type) => (
             <TabsItem

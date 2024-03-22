@@ -72,11 +72,10 @@ export const TabsItem = styled.li`
   }
 `;
 
-
-
 export const ProjectList = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   padding-top: 40px;
 
