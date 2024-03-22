@@ -75,6 +75,7 @@ export const ProjectItemDescriptionShort = styled.p`
   color: ${(props) => props.textColor};
   padding-bottom: 16px;
   z-index: 2;
+  padding-right: 10px;
 
   @media (max-width: 1024px) {
     display: none;
@@ -107,3 +108,19 @@ export const TechnologyListItem = styled.li`
   color: ${(props) => props.textColor};
   font-weight: 500;
 `;
+
+export const ProjectItemReadMoreWrapper = styled.div`
+  position: absolute;
+  right: 30px;
+  top: calc(50% - 14px);
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+`;
+
+// export const ProjectItemReadMore = styled.span`
+//   display: inline-block;
+//   max-width: 20px;
+//   margin-right: 25px;
+// `;
