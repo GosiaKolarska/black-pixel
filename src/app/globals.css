@@ -116,10 +116,15 @@ hr {
 }
 
 .testimonials .swiper-pagination-bullet-active {
-  background-color: #213ed7;
+  background-color: #0004ff;
   border-radius: unset;
 }
 
 .no-scroll {
   overflow: hidden;
+}
+
+*:focus {
+  outline: 2px solid #2299dd;
+  outline-offset: 2px;
 }

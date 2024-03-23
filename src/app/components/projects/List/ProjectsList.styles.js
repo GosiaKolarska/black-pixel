@@ -39,18 +39,21 @@ export const TabsItemCounter = styled.span`
   border-radius: 0.25rem;
   margin-left: 0.75rem;
   font-size: 0.85rem;
-  line-height: 1.25;
+`;
+
+export const TabItemButton = styled.button`
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #eaeaea;
 `;
 
 export const TabsItem = styled.li`
   display: flex;
-  align-items: center;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
 
-  &.active {
+  &.active ${TabItemButton} {
     background-color: #213ed7;
     color: white;
     font-weight: bold;
@@ -61,7 +64,7 @@ export const TabsItem = styled.li`
     }
   }
 
-  &:hover {
+  &:hover ${TabItemButton} {
     background-color: #cfd2de;
     color: #000;
 
@@ -71,6 +74,9 @@ export const TabsItem = styled.li`
     }
   }
 `;
+
+
+
 
 export const ProjectList = styled.ul`
   display: flex;

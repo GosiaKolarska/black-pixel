@@ -17,6 +17,11 @@ export const ProjectItem = styled.div`
   cursor: pointer;
   overflow: hidden;
 
+  &:focus {
+    outline: 4px solid #0004ff;
+    outline-offset: 3px;
+  }
+
   @media (max-width: 1100px) {
     width: 48%;
   }
@@ -45,6 +50,7 @@ export const ProjectItemImageWrapper = styled.div`
   img {
     object-fit: contain;
     width: auto;
+    height: 100px;
     max-width: 360px;
 
     @media (max-width: 590px) {
@@ -67,12 +73,9 @@ export const StyledImage = styled(motion.div)`
   }
 `;
 
-export const ProjectItemContent = styled.div``;
-
 export const ProjectItemDescriptionShort = styled.p`
   margin: 0;
   color: #fff;
-  color: ${(props) => props.textColor};
   padding-bottom: 16px;
   z-index: 2;
   padding-right: 10px;
@@ -105,7 +108,6 @@ export const TechnologyListItem = styled.li`
   font-size: 12px;
   margin-right: 6px;
   color: rgb(255, 255, 255);
-  color: ${(props) => props.textColor};
   font-weight: 500;
 `;
 
@@ -118,9 +120,3 @@ export const ProjectItemReadMoreWrapper = styled.div`
     display: none;
   }
 `;
-
-// export const ProjectItemReadMore = styled.span`
-//   display: inline-block;
-//   max-width: 20px;
-//   margin-right: 25px;
-// `;

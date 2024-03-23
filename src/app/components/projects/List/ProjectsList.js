@@ -9,6 +9,7 @@ import {
   TabsItem,
   TabsItemCounter,
   ProjectList,
+  TabItemButton,
 } from "./ProjectsList.styles";
 
 import projectsData from "./../../../data/projects.json";
@@ -19,23 +20,33 @@ const ProjectsList = ({ onProjectSelect }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   useEffect(() => {
-    const hash = window.location.hash.replace("#", "");
-    if (hash) {
-      const project = findProjectByHash(hash);
-      if (project) {
-        handleProjectSelect(project);
-      }
-    }
-  }, []);
+    const handlePopState = () => {
+      const searchParams = new URLSearchParams(window.location.search);
+      const filterFromURL = searchParams.get("filter") || "All";
+      setFilter(filterFromURL);
+    };
 
-  const findProjectByHash = (hash) => {
-    for (let category in projectsData.projects) {
-      const project = projectsData.projects[category].find(
-        (p) => p.title.replace(/\s+/g, "-").toLowerCase() === hash
-      );
-      if (project) return project;
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [filter]);
+
+  const updateURLForFilter = (newFilter) => {
+    const currentUrl = new URL(window.location);
+    const searchParams = new URLSearchParams(currentUrl.search);
+
+    if (newFilter === "All") {
+      const newUrl = currentUrl.pathname;
+      window.history.pushState({ path: newUrl }, "", newUrl);
+    } else {
+      searchParams.set("filter", newFilter);
+      const newUrl = `${currentUrl.pathname}?${searchParams.toString()}`;
+      window.history.pushState({ path: newUrl }, "", newUrl);
     }
-    return null;
+  };
+
+  const handleFilterChange = (type) => {
+    setFilter(type);
+    updateURLForFilter(type);
   };
 
   const projectCounts = Object.keys(projectsData.projects).reduce(
@@ -59,10 +70,28 @@ const ProjectsList = ({ onProjectSelect }) => {
 
   const handleCloseSidebar = () => {
     setIsSidebarOpen(false);
+    setSelectedProject(null);
+
+    if (window.location.hash) {
+      window.history.pushState(
+        "",
+        document.title,
+        window.location.pathname + window.location.search
+      );
+    }
   };
 
   const handleOverlayClick = () => {
     setIsSidebarOpen(false);
+    setSelectedProject(null);
+
+    if (window.location.hash) {
+      window.history.pushState(
+        "",
+        document.title,
+        window.location.pathname + window.location.search
+      );
+    }
   };
 
   const getFilteredProjects = () => {
@@ -82,20 +111,33 @@ const ProjectsList = ({ onProjectSelect }) => {
     <ProjectListSection>
       <div className="container-lg">
         <TabsList>
-          <TabsItem
-            className={filter === "All" ? "active" : ""}
-            onClick={() => setFilter("All")}
-          >
-            All
+          <TabsItem className={filter === "All" ? "active" : ""}>
+            <TabItemButton
+              onClick={() => handleFilterChange("All")}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  handleFilterChange("All");
+                }
+              }}
+              tabIndex="0"
+            >
+              All
+            </TabItemButton>
           </TabsItem>
           {Object.keys(projectsData.projects).map((type) => (
-            <TabsItem
-              key={type}
-              className={filter === type ? "active" : ""}
-              onClick={() => setFilter(type)}
-            >
-              {type}
-              <TabsItemCounter>{projectCounts[type]}</TabsItemCounter>
+            <TabsItem key={type} className={filter === type ? "active" : ""}>
+              <TabItemButton
+                onClick={() => handleFilterChange(type)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter") {
+                    handleFilterChange(type);
+                  }
+                }}
+                tabIndex="0"
+              >
+                {type}
+                <TabsItemCounter>{projectCounts[type]}</TabsItemCounter>
+              </TabItemButton>
             </TabsItem>
           ))}
         </TabsList>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import StyledLink from "../../common/link/StyledLink";
 import {
   Sidebar,
@@ -14,18 +14,27 @@ import {
   SidebarParagraphWrapper,
   SidebarParagraphTitle,
   WebsiteGithubURL,
-  ProjectSidebarOverlay,
 } from "./ProjectSidebar.styles";
 
-const ProjectSidebar = ({ project, onClose, isOpen, handleOverlayClick }) => {
-  useEffect(() => {
-    if (isOpen) {
-      document.body.classList.add("no-scroll");
-    } else {
-      document.body.classList.remove("no-scroll");
-    }
+const ProjectSidebar = ({ project, onClose, isOpen }) => {
+  const closeButtonRef = useRef(null);
 
-    return () => document.body.classList.remove("no-scroll");
+  useEffect(() => {
+    if (isOpen && closeButtonRef.current) {
+      closeButtonRef.current.focus();
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    const toggleBodyScroll = (shouldScroll) => {
+      if (shouldScroll) {
+        document.body.classList.remove("no-scroll");
+      } else {
+        document.body.classList.add("no-scroll");
+      }
+    };
+    toggleBodyScroll(!isOpen);
+    return () => toggleBodyScroll(true);
   }, [isOpen]);
 
   if (!project) return null;
@@ -42,7 +51,9 @@ const ProjectSidebar = ({ project, onClose, isOpen, handleOverlayClick }) => {
     >
       <SidebarWrapper>
         <ButtonWrapper>
-          <ButtonClose onClick={onClose}>Back to projects</ButtonClose>
+          <ButtonClose role="button" ref={closeButtonRef} onClick={onClose}>
+            Back to projects
+          </ButtonClose>
         </ButtonWrapper>
         <SidebarTitle>{project.title}</SidebarTitle>
         <SidebarParagraphShort>

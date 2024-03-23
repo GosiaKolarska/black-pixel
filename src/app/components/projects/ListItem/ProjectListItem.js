@@ -4,20 +4,39 @@ import Image from "next/image";
 import {
   ProjectItem,
   ProjectItemDescriptionShort,
-  ProjectItemContent,
   TechnologyList,
   TechnologyListItem,
   ProjectItemImageWrapper,
   StyledImage,
   ProjectItemReadMoreWrapper,
-  ProjectItemReadMore,
 } from "./Project.ListItem.styles";
 
 const ProjectListItem = ({ project, onSelect }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [lastFocused, setLastFocused] = useState(null);
 
   const handleMouseEnter = () => setIsHovered(true);
   const handleMouseLeave = () => setIsHovered(false);
+
+  const handleKeyPress = (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      onSelect(project);
+    }
+  };
+
+  const handleProjectSelect = (project, projectRef) => {
+    setSelectedProject(project);
+    setIsSidebarOpen(true);
+    setLastFocused(projectRef);
+  };
+
+  const handleCloseSidebar = () => {
+    setIsSidebarOpen(false);
+    if (lastFocused) {
+      lastFocused.focus();
+    }
+  };
 
   const arrowVariants = {
     hover: {
@@ -43,10 +62,14 @@ const ProjectListItem = ({ project, onSelect }) => {
 
   return (
     <ProjectItem
+      role="button"
+      tabIndex="0"
       style={{ backgroundColor: `${project.color}` }}
       onClick={() => onSelect(project)}
+      onKeyDown={handleKeyPress}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      aria-pressed="false"
     >
       <ProjectItemImageWrapper>
         <StyledImage
@@ -57,26 +80,25 @@ const ProjectListItem = ({ project, onSelect }) => {
           }}
           transition={{ duration: 0.3, ease: "easeOut" }}
         >
-          <Image
-            src={project.logo}
-            width="360"
-            height="100"
-            alt={`logo ${project.title}`}
-          />
+          <img src={project.logo} alt={`logo ${project.title}`} />
         </StyledImage>
       </ProjectItemImageWrapper>
       <motion.div
         initial={{ y: "100%", opacity: 0 }}
         animate={{ y: isHovered ? 0 : "100%", opacity: isHovered ? 1 : 0 }}
         transition={{ duration: 0.3, ease: "easeOut" }}
-        as={ProjectItemContent}
       >
-        <ProjectItemDescriptionShort textColor={project.textColor}>
+        <ProjectItemDescriptionShort
+          style={{ color: project.textColor || "#FFF" }}
+        >
           {project.descriptionShort}
         </ProjectItemDescriptionShort>
         <TechnologyList>
           {project.technologies.map((tech, techIndex) => (
-            <TechnologyListItem textColor={project.textColor} key={techIndex}>
+            <TechnologyListItem
+              key={techIndex}
+              style={{ color: project.textColor || "#FFF" }}
+            >
               {tech}
             </TechnologyListItem>
           ))}
