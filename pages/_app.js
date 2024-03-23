@@ -35,20 +35,19 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="http://blackpixel.art/meta.png" />
         <meta property="og:url" content="http://blackpixel.art/" />
         <meta property="og:type" content="website" />
-
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-TD7GTQ6TF9`}
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      </Head>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-TD7GTQ6TF9`}
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-TD7GTQ6TF9');
         `}
-        </Script>
-      </Head>
+      </Script>
       <Component {...pageProps} />
       <CookieConsent />
     </Layout>
