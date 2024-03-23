@@ -33,6 +33,22 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image" content="http://blackpixel.art/meta.png" />
         <meta property="og:url" content="http://blackpixel.art/" />
         <meta property="og:type" content="website" />
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-TD7GTQ6TF9"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'G-TD7GTQ6TF9');
+            `,
+          }}
+        />
       </Head>
       <Component {...pageProps} />
     </Layout>
