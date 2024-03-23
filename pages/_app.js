@@ -1,7 +1,9 @@
 import "../src/app/globals.css";
 import Head from "next/head";
 import Layout from "../src/app/components/layout/Layout";
+import CookieConsent from "../src/app/components/cookies/CookieConsent";
 import global from "../src/app/data/global.json";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -34,23 +36,21 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:url" content="http://blackpixel.art/" />
         <meta property="og:type" content="website" />
 
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-TD7GTQ6TF9"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-TD7GTQ6TF9');
-            `,
-          }}
+        <Script
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=G-TD7GTQ6TF9`}
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-TD7GTQ6TF9');
+        `}
+        </Script>
       </Head>
       <Component {...pageProps} />
+      <CookieConsent />
     </Layout>
   );
 }
