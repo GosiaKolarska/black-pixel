@@ -75,9 +75,6 @@ export const TabsItem = styled.li`
   }
 `;
 
-
-
-
 export const ProjectList = styled.ul`
   display: flex;
   flex-wrap: wrap;
@@ -86,6 +83,14 @@ export const ProjectList = styled.ul`
   padding-top: 40px;
 
   @media (max-width: 1100px) {
-    justify-content: space-between;
+    > div {
+      width: 48%;
+    }
+  }
+
+  @media (max-width: 790px) {
+    > div {
+      width: 100%;
+    }
   }
 `;

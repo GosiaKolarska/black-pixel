@@ -11,6 +11,10 @@ export const WorkSection = styled.section`
     padding: 80px 0 205px;
   }
 
+  @media (max-width: 1100px) {
+    padding: 80px 20px 205px;
+  }
+
   @media (max-width: 590px) {
     padding: 0 0 105px;
   }
@@ -55,6 +59,9 @@ export const WorkList = styled.ul`
 
   @media (max-width: 990px) {
     padding: 50px 20px 0;
+    li {
+      width: 100%;
+    }
   }
 `;
 

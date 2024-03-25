@@ -11,7 +11,7 @@ export const SkillsetSection = styled.section`
   }
 
   @media (max-width: 1100px) {
-    padding-bottom: 150px;
+    padding: 200px 20px 150px;
   }
 
   @media (max-width: 990px) {

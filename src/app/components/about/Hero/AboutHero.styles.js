@@ -6,6 +6,14 @@ export const HeroSection = styled.section`
   flex-direction: column;
   position: relative;
   overflow: hidden;
+
+  @media (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media (max-width: 990px) {
+    padding: 0;
+  }
 `;
 
 export const Container = styled.div`

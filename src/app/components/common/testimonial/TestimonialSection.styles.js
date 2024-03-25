@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const TestimonialSection = styled.section`
   padding: 40px 0 20px;
 
+  @media (max-width: 1100px) {
+    padding: 40px 20px 20px;
+  }
+
   @media (max-width: 990px) {
     padding: 0 32px 20px;
   }

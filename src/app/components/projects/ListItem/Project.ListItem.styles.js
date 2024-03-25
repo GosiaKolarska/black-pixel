@@ -23,15 +23,11 @@ export const ProjectItem = styled.div`
   }
 
   @media (max-width: 1100px) {
-    width: 48%;
+    width: 100%;
   }
 
   @media (max-width: 1024px) {
     justify-content: center;
-  }
-
-  @media (max-width: 790px) {
-    width: 100%;
   }
 
   @media (max-width: 590px) {

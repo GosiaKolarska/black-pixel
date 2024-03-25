@@ -7,6 +7,10 @@ export const ColumnsSection = styled.section`
   flex-direction: column;
   padding: 85px 0 76px;
 
+  @media (max-width: 1100px) {
+    padding: 85px 20px 76px;
+  }
+
   @media (max-width: 990px) {
     padding: 85px 32px 76px;
   }

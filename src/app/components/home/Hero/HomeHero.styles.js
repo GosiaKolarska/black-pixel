@@ -12,6 +12,10 @@ export const HeroSection = styled.section`
     padding: 190px 0 65px;
   }
 
+  @media (max-width: 1100px) {
+    padding: 190px 20px 65px;
+  }
+
   @media (max-width: 590px) {
     padding: 155px 0 65px;
   }

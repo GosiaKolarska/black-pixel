@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const SectionHero = styled.section`
   padding-bottom: 100px;
 
+  @media (max-width: 1100px) {
+    padding: 0 20px 100px;
+  }
+
   @media (max-width: 990px) {
     padding: 0 32px 90px;
   }

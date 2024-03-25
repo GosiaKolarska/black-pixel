@@ -11,7 +11,7 @@ export const ProjectsSectionHero = styled.section`
     padding: 190px 0 90px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1100px) {
     padding: 215px 20px 90px;
   }
 

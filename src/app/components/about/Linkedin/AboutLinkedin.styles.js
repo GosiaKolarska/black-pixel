@@ -13,6 +13,10 @@ export const LinkedinSection = styled.section`
     left: 35px;
   }
 
+  @media (max-width: 1100px) {
+    padding: 200px 20px 208px;
+  }
+
   @media (max-width: 990px) {
     padding: 120px 0;
 

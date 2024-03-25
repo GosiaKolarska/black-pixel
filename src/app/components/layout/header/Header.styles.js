@@ -33,6 +33,10 @@ export const StyledHeader = styled.header`
     top: 0;
   }
 
+  @media (max-width: 1100px) {
+    padding: 23px 20px !important;
+  }
+
   @media (max-width: 990px) {
     padding: 23px 37px 23px 32px;
 

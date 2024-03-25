@@ -31,6 +31,29 @@ const ProjectsList = ({ onProjectSelect }) => {
     return () => window.removeEventListener("popstate", handlePopState);
   }, [filter]);
 
+  useEffect(() => {
+    const openProjectFromHash = () => {
+      const hash = window.location.hash.replace("#", "");
+      if (hash) {
+        const projectTitleFromHash = hash.replace(/-/g, " ");
+        const project = []
+          .concat(...Object.values(projectsData.projects))
+          .find((p) => p.title.toLowerCase() === projectTitleFromHash);
+        if (project) {
+          setSelectedProject(project);
+          setIsSidebarOpen(true);
+        }
+      }
+    };
+
+    openProjectFromHash();
+    window.addEventListener("hashchange", openProjectFromHash, false);
+
+    return () => {
+      window.removeEventListener("hashchange", openProjectFromHash, false);
+    };
+  }, []);
+
   const updateURLForFilter = (newFilter) => {
     const currentUrl = new URL(window.location);
     const searchParams = new URLSearchParams(currentUrl.search);
