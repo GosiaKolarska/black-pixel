@@ -25,6 +25,11 @@ const ProjectsList = ({ onProjectSelect }) => {
       const searchParams = new URLSearchParams(window.location.search);
       const filterFromURL = searchParams.get("filter") || "All";
       setFilter(filterFromURL);
+
+      if (!window.location.hash) {
+        setIsSidebarOpen(false);
+        setSelectedProject(null);
+      }
     };
 
     window.addEventListener("popstate", handlePopState);
@@ -32,13 +37,34 @@ const ProjectsList = ({ onProjectSelect }) => {
   }, [filter]);
 
   useEffect(() => {
+    const applyFilterFromURL = () => {
+      const searchParams = new URLSearchParams(window.location.search);
+      const filterFromURL = searchParams.get("filter") || "All";
+
+      if (
+        Object.keys(projectCounts).includes(filterFromURL) ||
+        filterFromURL === "All"
+      ) {
+        setFilter(filterFromURL);
+      }
+    };
+
+    applyFilterFromURL();
+  }, []);
+
+  useEffect(() => {
     const openProjectFromHash = () => {
       const hash = window.location.hash.replace("#", "");
       if (hash) {
-        const projectTitleFromHash = hash.replace(/-/g, " ");
+        const projectTitleFromHash = decodeURIComponent(hash).replace(
+          /-/g,
+          " "
+        );
         const project = []
           .concat(...Object.values(projectsData.projects))
-          .find((p) => p.title.toLowerCase() === projectTitleFromHash);
+          .find(
+            (p) => p.title.toLowerCase() === projectTitleFromHash.toLowerCase()
+          );
         if (project) {
           setSelectedProject(project);
           setIsSidebarOpen(true);
@@ -47,10 +73,10 @@ const ProjectsList = ({ onProjectSelect }) => {
     };
 
     openProjectFromHash();
-    window.addEventListener("hashchange", openProjectFromHash, false);
+    window.addEventListener("hashchange", openProjectFromHash);
 
     return () => {
-      window.removeEventListener("hashchange", openProjectFromHash, false);
+      window.removeEventListener("hashchange", openProjectFromHash);
     };
   }, []);
 
