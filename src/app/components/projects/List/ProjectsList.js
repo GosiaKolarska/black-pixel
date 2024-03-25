@@ -18,6 +18,7 @@ const ProjectsList = ({ onProjectSelect }) => {
   const [filter, setFilter] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [filterChangeCounter, setFilterChangeCounter] = useState(0);
 
   useEffect(() => {
     const handlePopState = () => {
@@ -47,6 +48,7 @@ const ProjectsList = ({ onProjectSelect }) => {
   const handleFilterChange = (type) => {
     setFilter(type);
     updateURLForFilter(type);
+    setFilterChangeCounter((prevCounter) => prevCounter + 1);
   };
 
   const projectCounts = Object.keys(projectsData.projects).reduce(
@@ -142,13 +144,23 @@ const ProjectsList = ({ onProjectSelect }) => {
           ))}
         </TabsList>
         <ProjectList>
-          {filteredAndSortedProjects.map((project, index) => (
-            <ProjectListItem
-              key={index}
-              project={project}
-              onSelect={handleProjectSelect}
-            />
-          ))}
+          <AnimatePresence>
+            {filteredAndSortedProjects.map((project, index) => (
+              <motion.div
+                layout
+                key={`${project.title}-${project.year}-${index}`}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.2 }}
+              >
+                <ProjectListItem
+                  project={project}
+                  onSelect={handleProjectSelect}
+                />
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </ProjectList>
         <AnimatePresence>
           {isSidebarOpen && (

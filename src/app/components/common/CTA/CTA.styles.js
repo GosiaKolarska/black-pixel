@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionCTA = styled.div`
+export const SectionCTA = styled.section`
   margin-top: 180px;
   display: flex;
   justify-content: center;
@@ -48,6 +48,20 @@ export const CtaTitle = styled.h2`
   }
 `;
 
+export const CTALink = styled.a`
+  transition: 0.2s;
+  font-size: 22px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  svg path {
+    fill: #fff;
+    transition: 0.2s;
+  }
+`;
+
 export const CTALinkWrapper = styled.div`
   color: #fff;
   font-weight: 600;
@@ -55,9 +69,6 @@ export const CTALinkWrapper = styled.div`
   padding-bottom: 8px;
   transition: 0.2s;
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 12px;
 
   &:hover {
     color: #213ed7;
@@ -69,26 +80,13 @@ export const CTALinkWrapper = styled.div`
 
     svg path {
       fill: #213ed7;
-      transition: 0.2s;
     }
   }
 
   @media (max-width: 590px) {
     font-size: 18px;
-  }
-`;
 
-export const CTALink = styled.div`
-  a {
-    text-decoration: unset !important;
-    transition: 0.2s;
-  }
-  svg path {
-    fill: #fff;
-  }
-
-  @media (max-width: 590px) {
-    a span {
+    a {
       font-size: 18px;
     }
   }

@@ -49,6 +49,10 @@ export const WorkList = styled.ul`
   padding-top: 84px;
   position: relative;
 
+  li {
+    width: 440px;
+  }
+
   @media (max-width: 990px) {
     padding: 50px 20px 0;
   }

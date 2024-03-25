@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   WorkSection,
   Container,
@@ -26,6 +26,24 @@ const AboutWork = ({ work }) => {
     }
   };
 
+  const handleKeyDown = (event, index) => {
+    if (event.key === "Enter" || event.key === " ") {
+      toggleTab(index);
+    }
+
+    let newIndex = index;
+    if (event.key === "ArrowDown") {
+      newIndex = (index + 1) % work.steps.length;
+    } else if (event.key === "ArrowUp") {
+      newIndex = (index - 1 + work.steps.length) % work.steps.length;
+    }
+
+    if (newIndex !== index) {
+      setSelectedTab(newIndex);
+      document.getElementById(`workTab${newIndex}`).focus();
+    }
+  };
+
   return (
     <WorkSection>
       <Container className="container">
@@ -37,8 +55,11 @@ const AboutWork = ({ work }) => {
           {work.steps.map((step, index) => (
             <React.Fragment key={index}>
               <WorkTab
-                key={index}
+                id={`workTab${index}`}
                 className={selectedTab === index ? "active" : ""}
+                tabIndex="0"
+                onClick={() => toggleTab(index)}
+                onKeyDown={(event) => handleKeyDown(event, index)}
               >
                 <WorkTabInner
                   onClick={() => toggleTab(index)}

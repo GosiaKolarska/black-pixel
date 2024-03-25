@@ -67,7 +67,7 @@ const AboutLinkedin = () => {
         </LinkedinLeft>
         <LinkedinImages className="parallax-wrap" ref={parallaxContainer}>
           {linkedinData.linkedinPhotos.map((photo, index) => (
-            <Image
+            <img
               src={`/assets/about-photos/${photo.imageSrc}`}
               alt={photo.imageAlt}
               key={index}
