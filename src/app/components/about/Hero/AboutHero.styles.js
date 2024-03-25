@@ -59,6 +59,7 @@ export const ImageContainer = styled.div`
   }
 
   @media (max-width: 990px) {
+    z-index: -1;
     right: 0;
     img {
       opacity: 0.1;
