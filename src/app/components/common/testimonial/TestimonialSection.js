@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import globalData from "../../../data/global.json";
 import {
   TestimonialSection,
@@ -27,9 +27,56 @@ import "swiper/css/effect-creative";
 
 const TestimonialSectionComponent = () => {
   const { subtitle, title, people } = globalData.testimonials;
+  const swiperRef = useRef(null);
 
   const pagination = {
     clickable: true,
+    renderBullet: (index, className) => {
+      return `<span class="${className}" tabindex="0" role="button" aria-label="Go to slide ${
+        index + 1
+      }" onKeyDown="${(e) => handleBulletKeyDown(e, index)}"></span>`;
+    },
+  };
+
+  useEffect(() => {
+    const swiperInstance = swiperRef.current;
+    if (!swiperInstance) return;
+
+    const handleBulletKeyDown = (event) => {
+      if (event.key === "Enter") {
+        const index = parseInt(
+          event.target.getAttribute("data-swiper-slide-index"),
+          10
+        );
+        swiperInstance.swiper.slideTo(index);
+      }
+    };
+
+    const addBulletEventListeners = () => {
+      const bullets = document.querySelectorAll(".swiper-pagination-bullet");
+      bullets.forEach((bullet, index) => {
+        bullet.setAttribute("tabindex", "0");
+        bullet.setAttribute("role", "button");
+        bullet.setAttribute("aria-label", `Go to slide ${index + 1}`);
+        bullet.setAttribute("data-swiper-slide-index", index.toString());
+        bullet.addEventListener("keydown", handleBulletKeyDown);
+      });
+    };
+
+    addBulletEventListeners();
+
+    return () => {
+      const bullets = document.querySelectorAll(".swiper-pagination-bullet");
+      bullets.forEach((bullet) => {
+        bullet.removeEventListener("keydown", handleBulletKeyDown);
+      });
+    };
+  }, [swiperRef.current]);
+
+  const handleBulletKeyDown = (event, index) => {
+    if (event.key === "Enter") {
+      swiperRef.current.swiper.slideTo(index);
+    }
   };
 
   return (
@@ -48,6 +95,7 @@ const TestimonialSectionComponent = () => {
 
         <TestimonialList>
           <Swiper
+            ref={swiperRef}
             modules={[EffectCreative, Navigation, Pagination]}
             effect="creative"
             creativeEffect={{
@@ -60,6 +108,7 @@ const TestimonialSectionComponent = () => {
               },
             }}
             loop={true}
+            a11y={true}
             pagination={pagination}
             grabCursor={true}
           >
